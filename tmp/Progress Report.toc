@@ -1,0 +1,61 @@
+\contentsline {chapter}{Abstract}{1}{Doc-Start}
+\contentsline {chapter}{Contents}{2}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Research Questions}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objectives}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Research Outputs}{7}{section.1.3}
+\contentsline {chapter}{\numberline {2}Progress Review}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Research Methodology}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Design Science Research Methodology}{8}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Evaluation}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Research Data Management}{10}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Preliminary Survey}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Design Requirements}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Elaborating Design and Learning Models}{14}{section.2.4}
+\contentsline {section}{\numberline {2.5}Gamification Design}{16}{section.2.5}
+\contentsline {section}{\numberline {2.6}Gamification Design and Generation Framework}{17}{section.2.6}
+\contentsline {chapter}{\numberline {3}Research Plan}{20}{chapter.3}
+\contentsline {chapter}{\numberline {4}References}{21}{chapter.4}
+\contentsline {chapter}{\numberline {5}Publications}{24}{chapter.5}
+\contentsline {chapter}{Appendix \numberline {A}Preliminary Survey Data}{25}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Application of Deterding's Gameful Design Steps}{29}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}Strategy}{29}{section.a.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Define Target Outcome and Metrics}{29}{subsection.a.B.1.1}
+\contentsline {subsubsection}{Outcome}{29}{section*.2}
+\contentsline {subsubsection}{Metrics}{29}{section*.3}
+\contentsline {subsection}{\numberline {B.1.2}Define Target Users, Context, Activities}{29}{subsection.a.B.1.2}
+\contentsline {subsubsection}{Users}{29}{section*.4}
+\contentsline {subsubsection}{Context}{29}{section*.5}
+\contentsline {subsubsection}{Activities}{30}{section*.6}
+\contentsline {subsection}{\numberline {B.1.3}Identify Constraints and Requirements}{30}{subsection.a.B.1.3}
+\contentsline {subsubsection}{Laws and regulations}{30}{section*.7}
+\contentsline {subsubsection}{Scope (time, budget, personnel)}{30}{section*.8}
+\contentsline {subsubsection}{Technological requirements}{30}{section*.9}
+\contentsline {subsubsection}{Others}{30}{section*.10}
+\contentsline {section}{\numberline {B.2}Research}{30}{section.a.B.2}
+\contentsline {subsection}{\numberline {B.2.1}Translate Users Activities into Behaviour Chains}{30}{subsection.a.B.2.1}
+\contentsline {subsubsection}{Modelling}{30}{section*.11}
+\contentsline {subsubsection}{Meta-Modelling}{31}{section*.12}
+\contentsline {subsubsection}{Model Management}{31}{section*.13}
+\contentsline {subsection}{\numberline {B.2.2}Identify User Needs, Motivations, challenges}{31}{subsection.a.B.2.2}
+\contentsline {subsubsection}{User needs}{31}{section*.14}
+\contentsline {subsubsection}{Motivations}{31}{section*.15}
+\contentsline {subsubsection}{challenges}{32}{section*.16}
+\contentsline {subsection}{\numberline {B.2.3}Determine Gameful Design Fit}{32}{subsection.a.B.2.3}
+\contentsline {section}{\numberline {B.3}Synthesis}{32}{section.a.B.3}
+\contentsline {subsection}{\numberline {B.3.1}Formulate Activity, Challenge, Motivation Triplets for Opportune Activities or Behaviours}{32}{subsection.a.B.3.1}
+\contentsline {subsubsection}{What motivations energize and direct the activity?}{32}{section*.17}
+\contentsline {subsubsection}{What challenges are inherent in the activity?}{32}{section*.18}
+\contentsline {subsubsection}{What challenges can be removed through automation or improving usability?}{32}{section*.19}
+\contentsline {subsubsection}{What challenges remain that the user can learn to get better at?}{33}{section*.20}
+\contentsline {subsubsection}{What are the activities, challenges, and motives?}{33}{section*.21}
+\contentsline {section}{\numberline {B.4}Ideation}{33}{section.a.B.4}
+\contentsline {subsection}{\numberline {B.4.1}Brainstorming Ideas using Innovation Stems}{33}{subsection.a.B.4.1}
+\contentsline {subsubsection}{Challenge lenses}{33}{section*.22}
+\contentsline {subsubsection}{Goal and motivation lenses}{33}{section*.23}
+\contentsline {subsubsection}{Action and object lenses}{33}{section*.24}
+\contentsline {subsubsection}{Feedback lenses}{33}{section*.25}
+\contentsline {subsubsection}{Example}{33}{section*.26}
+\contentsline {subsection}{\numberline {B.4.2}Prioritise Ideas}{34}{subsection.a.B.4.2}
+\contentsline {section}{\numberline {B.5}Iterative Prototyping}{34}{section.a.B.5}
+\contentsline {chapter}{Appendix \numberline {C}Storyboard: Object Diagram}{35}{Appendix.a.C}
