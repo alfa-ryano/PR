@@ -51,6 +51,11 @@ G.~Engels, J.~H. Hausmann, M.~Lohmann, and S.~Sauer, ``Teaching uml is teaching
 J.~Kramer, ``Is abstraction the key to computing?'' \emph{Communications of the
   ACM}, vol.~50, no.~4, pp. 36--42, 2007.
 
+\bibitem{Saitta2013}
+L.~Saitta and J.-D. Zucker, \emph{Abstraction in artificial intelligence and
+  complex systems}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2013, vol.
+  456.
+
 \bibitem{hazzan2008reflections}
 O.~Hazzan, ``Reflections on teaching abstraction and other soft ideas,''
   \emph{ACM SIGCSE Bulletin}, vol.~40, no.~2, pp. 40--43, 2008.
@@ -59,11 +64,6 @@ O.~Hazzan, ``Reflections on teaching abstraction and other soft ideas,''
 R.~Duval, ``A cognitive analysis of problems of comprehension in a learning of
   mathematics,'' \emph{Educational studies in mathematics}, vol.~61, no. 1-2,
   pp. 103--131, 2006.
-
-\bibitem{Saitta2013}
-L.~Saitta and J.-D. Zucker, \emph{Abstraction in artificial intelligence and
-  complex systems}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2013, vol.
-  456.
 
 \bibitem{deterding2011game}
 S.~Deterding, D.~Dixon, R.~Khaled, and L.~Nacke, ``From game design elements to
@@ -99,28 +99,14 @@ K.~Peffers, T.~Tuunanen, M.~A. Rothenberger, and S.~Chatterjee, ``A design
   \emph{Journal of management information systems}, vol.~24, no.~3, pp. 45--77,
   2007.
 
+\bibitem{kolb2014experiential}
+D.~A. Kolb, \emph{Experiential learning: Experience as the source of learning
+  and development}.\hskip 1em plus 0.5em minus 0.4em\relax FT press, 2014.
+
 \bibitem{deterding2015lens}
 S.~Deterding, ``The lens of intrinsic skill atoms: A method for gameful
   design,'' \emph{Human--Computer Interaction}, vol.~30, no. 3-4, pp. 294--335,
   2015.
-
-\bibitem{stober2010overview}
-T.~Stober and U.~Hansmann, ``Overview of agile software development,'' in
-  \emph{Agile Software Development}.\hskip 1em plus 0.5em minus 0.4em\relax
-  Springer, 2010, pp. 35--59.
-
-\bibitem{hair2016primer}
-J.~F. Hair~Jr, G.~T.~M. Hult, C.~Ringle, and M.~Sarstedt, \emph{A primer on
-  partial least squares structural equation modeling (PLS-SEM)}.\hskip 1em plus
-  0.5em minus 0.4em\relax Sage Publications, 2016.
-
-\bibitem{jones2011develop}
-S.~Jones, \emph{How to develop a data Management and sharing plan}.\hskip 1em
-  plus 0.5em minus 0.4em\relax Digital Curation Centre, 2011.
-
-\bibitem{kolb2014experiential}
-D.~A. Kolb, \emph{Experiential learning: Experience as the source of learning
-  and development}.\hskip 1em plus 0.5em minus 0.4em\relax FT press, 2014.
 
 \bibitem{liebel2015ready}
 G.~Liebel, R.~Heldal, J.-P. Stegh{\"o}fer, and M.~R. Chaudron, ``Ready for

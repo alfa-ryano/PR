@@ -1,5 +1,4 @@
-\documentclass[12pt, a4paper]{report}
-\usepackage[titletoc]{appendix}
+\documentclass[12pt, a4paper]{report} \usepackage[titletoc]{appendix}
 \usepackage{graphicx}
 	\graphicspath{{images/}} 
 \usepackage{geometry}
@@ -24,7 +23,7 @@
 \textbf{Progress Report}
 \vspace{1cm}
 
-\textbf{\large Software Modelling Learning Gamification}
+\textbf{\large Model-Driven Gamified Software Modelling Learning}
 \vspace{1cm}
 
 Alfa Ryano Yohannis\\
@@ -50,8 +49,10 @@ United Kingdom\\
 
 \begin{abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-In software engineering, software modelling plays a significant role. Nevertheless, learners often consider software modelling as a comparatively difficult subject since it requires them to have abstraction skills to master it. Meanwhile, gamification has been growing as a trend solution to improving learners' engagement. This study endeavours to harness gameful design to build gamification that supports learners advancing their modelling abilities. Our method to dealing with gameful design combines pedagogical design principles derived from several learning models and the Deterding's Gameful Design framework as an approach to gamification development. This research also employs Model-Driven Engineering best practices and uses the Design Science Research Methodology. This research aims to produce software modelling learning gamification (SMLG), and an SMLG framework to design and generate the SMLG's instances. We plan to perform controlled experiments to evaluate the effectiveness of the SMLG and the SMLG framework.
-
+In software engineering, software modelling plays a significant role.
+Nevertheless, learners often consider software modelling as a comparatively 
+difficult subject since it requires them to have abstraction skills to master it. 
+Meanwhile, gamification has been growing as a trend solution to improving learners' engagement. This study endeavours to harness Model-Driven Engineering best practices to construct gamified learning activities that supports learners advancing their modelling abilities. Our method to dealing with the gamified learning combines pedagogical design principles derived from several learning models and the Deterding's Gameful Design framework for it's gamification. Using the Design Science Research Methodology, this research aims to produce a platform for designing and generating gamified software modelling learning. We plan to perform controlled experiments to evaluate the effectiveness of the platform as well as the gamified software modelling learning produced.
 \end{abstract}
 
 \tableofcontents
@@ -59,229 +60,109 @@ In software engineering, software modelling plays a significant role. Neverthele
 
 \chapter{Introduction}
 \label{Introduction}
+In this section, the background, questions, objectives, potential outputs, and scoping of this research are presented.
 
-
-The nature/main problems of modelling.
-
-Opportunity to use games.
-
-Motivations, needs, desired qualities.
-
-Existing approaches of using games to address the problems.
-
-The lack of existing problems and rooms for improvements.
-
-Motivations, needs, desired qualities.
-
-Proposed solutions.
-
--------------------------
-Methodology
-
-Identify Problem and Motivation
-- Part of this are in the introduction 
-- Research Question
-
-Define Objective and Solution
-- Research Objectives
-- Research Solution
-- Research outcomes
-- Contribution to environment
-- Contribution to knowledge
-
-Design and Development
-- Requirements
-- Grounding
-- Ethical Consideration
-- Design
-- Development
-
-Demonstration and Evaluation
-
-Communication
-- Publication
-
--------------------------------------------
-Research Plan
-- Complete Basic Functionality
-- Improve usability
-- Design Experiments for Evaluation
-- Publication
-
-
-Software modelling is commonly perceived as a difficult subject since it requires a mastery of abstraction \cite{Borstler2012}. However, this subject has a fundamental and crucial role in software engineering education and practice. Successful application of software modelling requires skills in abstract modelling \cite{whittle2013industrial}. The modelling itself is the process of thinking abstractly about systems \cite{bezivin2009teaching}. Thus, teaching modelling also means teaching abstraction \cite{engels2005teaching}. Therefore, it is crucial to make students understand the value of abstraction \cite{bezivin2009teaching}. Weak software modelling skills will likely cause software engineering students to face further challenges with their degrees, as most of the software engineering related subjects involve of inherent abstraction problems \cite{Kramer2007}. In the context of computer science and software engineering education, Kramer \cite{Kramer2007} and Hazzan \cite{hazzan2008reflections} argued that abstraction is the central theme or key skill for computing.
+\section{Background}
+Software modelling is commonly perceived as a difficult subject since it
+requires a mastery of abstraction \cite{Borstler2012}. However, this subject
+has a significant role in software engineering education and
+practice. Successful application of software modelling requires skills in
+abstract modelling \cite{whittle2013industrial}. The modelling itself is the
+process of thinking abstractly about systems \cite{bezivin2009teaching}. Thus,
+teaching modelling also means teaching abstraction \cite{engels2005teaching}.
+Therefore, it is crucial to make students understand the value of abstraction
+\cite{bezivin2009teaching}. Weak software modelling skills will likely cause
+software engineering students to face further challenges with their degrees, as
+most of the software engineering related subjects involve of inherent
+abstraction problems \cite{Kramer2007}. Drawing from multidiciplinary research to define abstraction for Artifical Intelligence, Saitta et al. stated that abstraction is often associated with these processes: information hiding, generalisation, approximation or reformulation, and separating relevant from irrelevant aspects \cite{Saitta2013}. Those processes are the common approaches applied in Computer Science, such as encapsulation  and generalization in object-oriented programming, resolution of polygon density in 3D modelling, algebraic simplication in symbolic computation, and removing colour information of images to produce grayscales. In the context of software engineering and computer science education, Kramer \cite{Kramer2007} and Hazzan \cite{hazzan2008reflections} argued that abstraction is the central theme or key
+skill for computing.
 
 \begin{displayquote}
-``I believe that abstraction is a key skill for computing. It is essential during requirements engineering to elicit the critical aspects of the environment \dots At design time \dots Even at the implementation stage \dots --- Kramer \cite{Kramer2007}.
+``I believe that abstraction is a key skill for computing. It is essential
+during requirements engineering to elicit the critical aspects of the 
+environment \dots At design time \dots Even at the implementation stage
+\dots --- Kramer \cite{Kramer2007}.
 \end{displayquote}
 
 \begin{displayquote}
-`` \dots software is an intangible object, and hence, requires highly developed cognitive skills for coping with different levels of abstraction." --- Hazzan \cite{hazzan2008reflections}.
+`` \dots software is an intangible object, and hence, requires highly developed
+cognitive skills for coping with different levels of abstraction." --- Hazzan
+\cite{hazzan2008reflections}.
 \end{displayquote}
 
-The problem of learning appropriate abstraction skills for software modelling is similar to problems in mathematics, where most of the concepts can only be accessed through symbolical representations \cite{Duval2006}. Abstraction also requires students to grasp skills in information hiding, generalisation, approximation or reformulation and separating relevant from irrelevant aspects \cite{Saitta2013}. To overcome these challenges, we need to put effort into software modelling learning design, developing a concrete and motivating presentation which can engage students and facilitate deep learning.
+The problem of learning appropriate abstraction skills for software modelling is similar to problems in mathematics, where most of the concepts can only be accessed through symbolical representations \cite{Duval2006}. The abstract nature of software modelling traditionally has been addressed through the use of diagrams or visual notations in the form of modelling and diagramming tools. However, grasping concepts represented by the visual notations and conversely presenting back the concepts into visual notations are not trivial, including presenting aspects of the concept in different visual notation as well as choosing the right levels of abstraction and moving between them. Learning and teaching these skills is challenging and to overcome the challenges, we need to put effort into software modelling learning platform that support learning the skills. 
+ 
+The presence of learning platform does not guarantee will improve learners' engagement in software modelling learning. In recent years, the use of games and game elements, such as Gamification \cite{deterding2011game} and Serious Games \cite{Michael2005}, for purposes other than leisure has drawn significant attention. Gamified approaches have been proposed as solutions to motivational problems that emerge when users are required to engage in activities that they perceive as boring, irrelevant, or difficult. Figure \ref{gamification-trend} shows the growth of ``Gamification" on Google Trends\footnote{\url{https://www.google.com/trends/explore?date=all&q=\%22gamification\%22}}
+since February 2010.
 
-In recent years, the use of games and game elements for purposes other than leisure has drawn significant attention. Gamification \cite{deterding2011game} and Serious Games \cite{Michael2005} (we use `gamification' to refer to both concepts) have been proposed as solutions to motivational problems that emerge when users are required to engage in activities that they perceive as boring, irrelevant, or difficult. Figure \ref{gamification-trend} shows the growth of ``Gamification" on Google Trends\footnote{\url{https://www.google.com/trends/explore?date=all&q=\%22gamification\%22}} since February 2010. 
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=12cm]{gamification-trend}
+\begin{figure}[ht] \centering \includegraphics[width=12cm]{gamification-trend}
 \caption{``Gamification" on Google Trends per 12 April 2016.}
 \label{gamification-trend}
 \end{figure}
 
-Real-world examples that show the success of the gamification are Duolingo\footnote{\url{https://www.duolingo.com/
-}} and Re-mission\footnote{\url{http://www.re-mission.net/}}. Duolingo is a gamified system of language learning. It embeds game elements, such as points, levels, and lives, to make language learning more fun. Re-mission is a third-person shooting game dedicated to young cancer patients and designed to teach and learn how to deal with cancer. The patients are invited to take part in an entertaining gameplay that will affect their specific behavioural and psychological outcomes producing effective cancer therapy.
+Real-world examples that show the success of the gamification are Duolingo\footnote{\url{https://www.duolingo.com/ }} and Re-mission\footnote{\url{http://www.re-mission.net/}}. Duolingo is a gamified system of language learning. It embeds game elements, such as points, levels,and lives, to make language learning more fun. Re-mission is a third-person shooting game dedicated to young cancer patients and designed to teach and learn how to deal with cancer. The patients are invited to take part in an entertaining gameplay that will affect their specific behavioural and psychological outcomes producing effective cancer therapy.
  
-Through a systematic review, Connolly et al. \cite{connolly2012systematic} studied the impact of computer games and serious games on engagement and learning in diverse fields. They reported the majority of the studies presented empirical evidence about the positive impact of computer games and serious games. Using the same type of method, Hamari et al. \cite{hamari2014does} found that according to the majority of the reviewed papers, gamification does generate benefits and positive effects. Specifically in the field of software engineering, Pedreira et al. \cite{Pedreira2015} also performed a systematic review on the application of gamification in software engineering. Most existing studies focus on software development, project management, requirements, and other support areas, but none of them focuses on software modelling. They also found fewer studies reporting empirical evidence to support gamification research. They argued that existing studies in the field are quite new, thus more research effort is needed to investigate the impact of gamiï¬�cation in software engineering. 
+Through a systematic review, Connolly et al. \cite{connolly2012systematic} studied the impact of computer games and serious games on engagement and learning in diverse fields. They reported the majority of the studies presented empirical evidence about the positive impact of computer games and serious games. Using the same type of method, Hamari et al. \cite{hamari2014does} found that according to the majority of the reviewed papers, gamification does generate benefits and positive effects. Specifically in the field of software engineering, Pedreira et al. \cite{Pedreira2015} also performed a systematic review on the application of gamification in software engineering. Most existing studies focus on software development, project management, requirements, and other support areas, but none of them focuses on software modelling. They also found fewer studies reporting empirical evidence to support gamification research. They argued that existing studies in the field are quite new, thus more research effort is needed to investigate the impact of gamification in software engineering. Reports of the positive impact of gamification in various fields, particularly addressing engagement issues, encourage us to leverage it to deliver gamified software modelling learning, an area which has received little attention for the application of games and game elements so far. 
 
-Reports of the positive impact of gamification in various fields encourage us to apply it in software modelling learning, an area which has received little attention for the application of gamification so far. This situation broadens our opportunity not only to produce a novel approach to teaching software modelling but also to improve gamification processes through the application of Model-Driven Engineering approaches. This research proposes a main research question, ``Can gamification improve software modelling learning?". The word `improve' implies that learning with gamification enhances learners' engagement and learning performance. The engagement of learners with the support of gamification is more durable, frequent, and active compared to learners that only use didactic approach. Also, the former perform better in knowledge and skill acquisition and application compared to the latter.   
+In terms of learning, pedagogical aspect cannot be neglected. Several concepts from pedagogy will be applied to drive the design of the platform, particularly the best practices from instructional design, a mature field in designing learning activities so that learning processes can be more efficient and effective. Therefore, incorporating gamified approaches as well as the best practices of instructional design will bring great benefits to tackle the problems in learning software modelling. The platform is being designed to be suitable for higher-level undergraduate and postgraduate students with some of experience of software engineering. 
 
-In the beginning, we plan to address software modelling in Model-Driven Engineering as a whole---comprising modelling, metamodelling, and model transformation. However, after consideration regarding scope and time, we adjust our scoping just to focus on graphical software modelling, which is a common way to express models in modelling and metamodelling. We excluded model transformation since its approaches are commonly expressed in a textual way. We include metamodelling since a metamodel itself is a model of models and usually is expressed in the form of class diagram-like graphics. We plan to perform literature study and develop a prototype in the first year and address modelling and metamodelling in the second year and third year respectively. 
-    
-Instead of developing the software modelling games manually, we plan to follow a model-based approach. We will develop a design framework for the games, which will systematically and semi-automatically drive gamification design to produce software modelling learning gamification (SMLG). We call the framework the SMLG framework. Essentially, our study lies in the intersection between software modelling, learning, and games as depicted in Figure \ref{smlg}. Therefore, pedagogical aspect cannot be neglected. We will apply several learning models from pedagogy to drive the design of our learning game. We also target the SMLG is suitable for higher-level undergraduate and postgraduate students with some of experience of software engineering. 
-
-The remainder of this report is organised as follows. We provide a detailed literature review in Section 2 and propose the research proposal as well as the research methodology in Section 3. Finally, in Section 4, we end this qualifying dissertation with a discussion on our preliminary results. 
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\textwidth]{smlg}
-\caption{How to 'Cook' a Gameful Software Modelling Learning?}
-\label{smlg}
-\end{figure}
-
-Grounded on the literature review in Chapter \ref{Field Survey and Review}, in this section, we present our research questions as well as our research aim and objectives to answer the questions. We also present the possible research outputs that will be produced by our research and the research methodology that we are going to apply to address the research questions.   
+Rather than just being a learning content for learners, software modelling also broadens opportunity to improve the meta-processes of the gamified software modelling learning, through the application of Model-Driven Engineering (MDE) approaches. Instead of developing the software modelling games manually, a model-based approach is applied. A platform is being developed and it will act as a design framework to design learning activities for topics in software modelling. The learning activity design then will be transformed to generate gamified learning activities of software modelling.  
 
 \section{Research Questions}
-The main research question proposed by this research is ``Can gamification
-improve software modelling learning?". The word `improve' implies that learning
-with gamification enhances learners' engagement and learning performance.
-Learners with the support of gamification engage more durable, frequent, and
-active compared to learners that only use didactic approach. Also, the former
-ones perform better in knowledge and skill acquisition and application compared
-to the latter ones. To answer the main research question, following sub research
-questions need to be investigated:
+Thus, this research proposes a main research question ``What kind of platform that produce gamified learning activities to improve software modelling learning?". The word `platform' means a software environment for tutors and learners to design and perform gamified software modelling learning. The word 'produce' indicates the platform support tutors in designing and generating gamified learning activities. Thus, the platform should be expressive enough to support various visual modelling notations and the creation of different patterns of learning activities for learning software modelling. The word `improve' implies that learning with gamified approaches enhances learners' engagement and learning performance. They are more durable, frequent, and active compared to learners that only use didactic approach. Also, the former perform better in knowledge and skill acquisition and application compared to the latter. To answer the main research question, following sub research questions need to be investigated:
 \begin{enumerate}
-\item Which parts of software modelling teaching and learning could benefit from gamification?
-\item What teaching and learning best practices of software modelling that are significant to be accommodated in SMLG?
-\item What pedagogical learning models and in what roles that can improve the engagement and effectiveness of SMLG?
-\item What kind of gamification design that can support software modelling learning best? 
-\item What kind of orchestrating framework is needed to design the interaction between software modelling and game elements to achieve effective SMLG?
-\item To what extent does SMLG improve learners' motivation, engagement, and performance?
-\item To what extent do software modelling tutors benefit from a SMLG framework?
+\item How can a platform that implements Model-Driven Engineering approaches help tutors and learners to produce and learn gamified software modelling learning?
+\item Does the platform improve learners' engagement and performance in learning software modelling?
+\item Does the platform help tutors in developing gamified software modelling learning?
 \end{enumerate}
 
-\section{Objectives}
-\label{Objectives}
-The main aim of this research is to assess to what extent gamification can improve software modelling learning. Therefore, we will investigate and develop an SMLG framework that systematically and semi-automatically drives gamification design and generation to produce SMLG. More precisely, this research aims to meet the following research objectives that are derived from the main research aim:
-
+\section{Research Objectives}
+The solution proposed by this research is to produce a platform that can support tutors to design gamified learning activities as well as learners to learn software modelling in a gamified way. More precisely, this research aims to meet the following research objectives that are derived from the solution:
 \begin{enumerate}
-\item Perform a literature review to identify research problems, questions, and objectives. 
-\item Develop a framework that is intended to design and generate SMLG based on the literature review and survey. The framework will be iteratively updated according to the results obtained from experiments. 
-\item Design and generate instances of SMLG. The instances will be tested to respondents for evaluation and to obtain feedback for iterative improvement. 
-\item Perform controlled experiments to measure the significance of the SMLG in improving learning performance compared to traditional method, didactic learning without the support of the gamification.
-\item Perform controlled experiments to measure the productivity and maintainability of a software modelling learning design framework in supporting tutors design and develop SMLG. 
+\item Design and develop a platform that accommodates gamified approaches and instructional design to be implemented through harnessing the best practices of Model-Driven Engineering. 
+\item Perform controlled experiments to measure the significance of the platform in improving learning engagement and performance compared to traditional method, didactic learning without the support of gamified approaches.
+\item Perform controlled experiments to measure the productivity and maintainability of the platform regarding supporting tutors in designing and producing gamified learning activities of software modelling learning. 
 \end{enumerate}
 
 \section{Research Outputs}
-The potential research outputs of this research are:
+By the end of this research, three potential research outputs have identified will have been produced:
 \begin{enumerate}
-\item Software/applications of SMLG. The applications/instances of SMLG that are designed and generated using a SMLG framework. 
-\item A framework for designing and generating applications of SMLG.
-\item Controlled experiments: a learning outcome comparison between gamified version and the traditional one of software modelling learning.
-\item A model that explains how SMLG works. The model can be achieved through Learning and Game Analytics and Structural Equation Modelling studies.
-\item Case studies: reports of applications of theories, models, and methods used in this research.
+\item A platform for tutors to design and produce gamified learning activities of software modelling and for learners to learn software modelling in gamified ways. 
+\item Controlled experiments: comparisons in learning engagement and performance of learners between gamified version and the traditional one of software modelling learning.
+\item Controlled experiments: comparisons in productivity and maintainability of of the platform in supporting tutors designing and producing gamified software modelling learning activities.
 \end{enumerate}
 
-
-
-Your introduction to your research and research area can be quite short, but needs to make sense to someone who did not read (or does not remember) your QD.  
-
-You should reiterate the motivation for your research (e.g. the gap that it is intended to fill). You should also state succinctly any changes to the scope of your research since the QD milestone: if you have not changed scope or direction, say so.
-
-Be clear what hypothesis or research questions you are addressing and why.
+\section{Research Scoping}
+In the beginning, this research plans to address software modelling in Model-Driven Engineering as a whole---comprising modelling, metamodelling, and model transformation. However, after consideration regarding scope and time, it's scope is adjusted to focus on graphical software modelling, which is a common way to express models in modelling and metamodelling. Model transformation is excluded since its approaches are commonly expressed in a textual way, but still includes metamodelling since a metamodel itself is a model of models and usually is expressed in the form of class diagram-like graphics. This research plans to perform literature study and develop a prototype in the first and a half year and address experiments for validation in the second year and third year respectively.\newline\newline
+The remainder of this report is organised as follows. We provide a detailed
+progress review in Section 2 and a research plan in Section 3. Section 4 contains the references of this report and finally Section 5 lists the publication of this research.
 
 \chapter{Progress Review}
 \label{Progres Review}
-
-In this section, we present our preliminary results. First, we present the
-result of our preliminary survey regarding the needs, motivation, and challenges
-of software modelling learning from the perspective of Model-Driven Engineering
-module's students. Next, we summarise our literature review regarding best
-practices in software modelling teaching into lists of design requirements.
-After that, we elaborate the potential contribution of the discussed learning
-models to the design of the SMLG. In the end, we present the preliminary design
-of the SMLG as well as the SMLG framework.
-
-\section{Research Methodology}
-In this section, we discuss briefly the research methodology that we apply to
-address research questions presented previously. Since the main outputs are
-design artefacts---the applications of SMLG and the SMLG framework to generate
-them, Design Science Research Methodology \cite{peffers2007design} is selected
-as the research method as it provides a comprehensive conceptual framework and
-activity guidelines for understanding, developing, executing, and evaluating the
-design artefact. We also discuss briefly our evaluation plan to evaluate our
-research findings. In the end of this section, we present our Research Data
-Management approach as part of good research practices.
-
-\subsection{Design Science Research Methodology}
-We will employ Design Science Research Methodology \cite{peffers2007design} as
-the methodology to carry out the research. DSRM is selected since it provides a
-comprehensive conceptual framework that consists of activity guidelines for
-understanding, developing, executing, and evaluating design artefacts (Figure
-\ref{dsrm}). Another reason is that it positions itself at the top level of
-abstraction without going into much detail of how to perform each activity, we
-can freely choose other more concrete research methods to carry out the
-activities. For examples, we can conduct literature reviews, surveys, or expert
-interviews to determine research problems, motivations, solutions, and
-objectives as well as controlled experiments to measure and evaluate the
-effectiveness of the artefacts.
+In this section, the progress review of this research is discussed. First, the Design Science Research Methodology (DSRM) \cite{peffers2007design}, the main research method employed on this research, is discussed briefly, and then followed by a discussion of progress on activities composing DSRM.
 
 \begin{figure}[ht] \centering \includegraphics[width=\textwidth]{dsrm}
 \caption{Design Science Research Methodology. Adapted from Peffer et al. \cite{peffers2007design}.}
 \label{dsrm}
 \end{figure}
 
-\textbf{Identify Problem and Motivation}. This research will use literature review, suggestions from experts, and surveys to identify research problems and motivations as the background to determine the solution and its objectives. The experts are academicians or practitioners that have significant experience in Model-Driven Engineering and respondents are the students of Model-Driven Engineering-like modules (Software Analysis and Design, Model-Driven Software Development, etc.). In this way, (1) we can identify parts of software modelling teaching and learning that could benefit from gamification, (2) we can also determine software modelling teaching and learning best practices that are significant to be accommodated in SMLG, (3) we are facilitated to decide which pedagogical learning models that can improve the engagement and effectiveness of SMLG, as well as (4) to determine what kind of gamification design that can support software modelling learning best. Performing problem and motivation identification addresses research questions one to four.  
+\section{Research Methods}
+\label{Research Methods}
+Design Science Research Methodology (DSRM) is selected as the main research method since the main output of this research is a design artefact, a platform to design and generate gamified software modelling learning. DSRM provides a comprehensive conceptual framework and activity guidelines for understanding, developing, executing, and evaluating a design artefact (Figure \ref{dsrm}). Another reason is that it positions itself at the top level of abstraction without going into much detail of how to perform each activity, we can freely choose other more concrete research methods to carry out the activities. For examples, we can conduct literature reviews, surveys, or expert interviews to determine research problems, motivations, solutions, and objectives as well as controlled experiments to measure and evaluate the effectiveness of the artefacts. DSRM consists of six activities: identify problem and motivation, define objectives for a solution, design and development, demonstration and evaluation, and communication. The progress of this research on these six activities are discussed in the following sections.
 
-\textbf{Define Objectives of a Solution}. Based on the identified problems and motivations, we define our solution that is embedding gamification in the process of software modelling learning, which is expressed by the use of gamification applications specifically designed for software modelling learning. Research objectives have been defined in the previous section (section \ref{Objectives}).
+\section{Identify Problems and Motivation}
+Problem identification and motivation of this research have been largely presented in the Introduction section (Chapter \ref{Introduction}). In this section, they are restated again in a succinct manner.   
 
-\textbf{Design and Development}. This research will employ Gameful Design
-Framework \cite{deterding2015lens} to design and develop the SMLG and agile
-software development \cite{stober2010overview} to design and develop the
-software/applications. The design and development activities are part of the
-iterative cycles and the products of the activities will be refined as required
-based the results generated from the evaluation activity. For the framework that
-generates the SMLG, we build one application of SMLG that addresses one
-graphical modelling language. From there, we make an abstraction of reusable
-components of the application and implement Model-Driven Engineering approaches,
-such as modelling, metamodelling, and code generation, to generate different
-applications specific for other graphical modelling languages.
+\subsection{Problems and Motivation}
+Software modelling plays a significant role in software engineering. However, its abstract nature make it challenging to be mastered since most of its concepts are largely presented in symbolical notations. To master software modelling, learners need to posses modelling skills, such as grasping ideas behind models presented in visual modelling notations, presenting back the ideas into visual modelling notations, viewing the ideas from different perspectives using different visual modelling notations, choosing the right levels of abstraction of modelling and moving between. Acquiring these skills might be difficult enough to demotivate learners from learning software modelling.
 
-\textbf{Demonstration and Evaluation}. The resulting applications and the
-framework to generate them will be demonstrated and evaluated by applying it to
-several courses of software modelling. Moreover, the evaluation results will be
-used as feedback to improve the quality of the applications and the framework
-and as a ground to judge the research findings. Demonstration and evaluation
-activities are parts of the iterative cycles and will be performed again as
-required.
-
-\textbf{Communication}. Significant findings will be published in an academic conferences or journals for dissemination and evaluation by the related research communities.
-
-\subsection{Evaluation}
-We plan to evaluate (1) the effectiveness of the SMLG discussed above and (2) the productivity and maintainability benefits of the SMLG framework. For the effectiveness evaluation, controlled experiments will be used. The participants, software modelling students, will be divided into two groups, a control group and an experimental group. The control group will learn software modelling using traditional methods while the experimental group will learn with support from the SMLG. Then, their performance of the two groups will be measured by their ability to solve a set of related modelling problems. 
-
-For the evaluation of the SMLG framework, the participants will be software modelling tutors; they will be divided into two groups, one that will develop SMLG \emph{with} the SMLG framework and one \emph{without} the SMLG framework (i.e. using existing web technologies). They will be asked to elaborate their SMLG into their teaching instructions and use them in their teaching. The comparison will be on their productivity and the maintainability of their SMLG. To evaluate the generality of the results of both evaluation processes, conducting experiments in different years and countries is also considered.
-
-Additionally, surveying with questionnaires or interviews might be conducted to investigate the underlying variables or processes. Structural equation modelling \cite{hair2016primer} is also an option if measuring the effects of the identified underlying variables is required. An alternative method for understanding of the underlying variables and processes is through investigating the SMLG's event logs using data mining or machine learning techniques.
-
-\subsection{Research Data Management}
-During the evaluation phase of this project, we plan to collect data from our respondents---part of research that is sensitive to privacy issues. Thus, as part of good research practices at the University of York\footnotemark \footnotetext{\url{https://www.york.ac.uk/library/info-for/researchers/data/}}, Research Data Management (RDM) is obligatory to ensure our research protects the privacy of our respondents, conforms to the law, and respects research ethics, as well as to demonstrate research excellence and integrity. Therefore, we plan to design a Data Management Plan (DMP) that refers to the Digital Curation Centre's outlines, which means the plan should address the following six main points: (1) Data Types, Formats, Standards, and Capture Methods. (2) Ethics and Intellectual Properties. (3) Access, Data Sharing, and Reuse. (4) Short-Term Storage and Data Management. (5) Deposit and Long-Term Preservation. (6) Outsourcing \cite{jones2011develop}. To support our work, we will use the DMP template\footnotemark[\value{footnote}] provided by the University of York for postgraduate research projects.
+Apart from the problems previously mentioned, the use of games or game elements rises as solutions to tackle motivational problems. Also, instructional design has been a mature field in designing learning activities so that learning processes can be more efficient and effective. Therefore, incorporating gamified approaches as well as the best practices of instructional design will bring great benefits to tackle the problems in learning software modelling. A platform that unify the gamified approaches and instructional design is needed. This is where software modelling plays it role. Not just being a content to be learned, using Model-Driven Engineering best practices, the design of gamified learning activities could be automated, customised, and reused, and the gamified learning activities themselves could be more engaging compared to the traditional didactic learning. Thus, this research is motivated to produce a platform that can support tutors to design gamified learning activities as well as learners to learn software modelling in a gamified way.
 
 
+\section{Define Objective for a Solution}
+The objective of the solution proposed by this research is to develop a platform that can support tutors to design gamified learning activities as well as learners to learn software modelling in a gamified way. To ensure the solution will be fully functioning, some requirements have to be met. So far, these requirements are gathered from two sources, from a preliminary survey and literature review.
 
-\section{Preliminary Survey}
-\label{Preliminary Survey}
+\subsection{Requirements from a Preliminary Survey}
 In this research, we have conducted our preliminary survey to identify learners' needs, motivations, and challenges according to the Research phase of the Deterding's Gameful Design Framework. The preliminary survey is not intended to measure significance, but it is more to qualitative investigation to reveal needs, motivations, and challenges in learning software modelling from learners' perspective.    The preliminary survey is also in line with the Design Science Research Methodology, in order to identify the problem and motivation so that we can define objectives of a solution accurately in the second activity. 
 
 We have distributed online questionnaires to students of Model Driven
@@ -319,10 +200,6 @@ We also asked them question 8 and 9 about the non-interesting challenges, extran
 
 \textit{Second}, the motivations of the students to learn MDE are, regardless their view on MODE module as a compulsory module in their programme, they were aware that their motivation should be on satisfying their need in gaining advanced knowledge and skills in MDE as mentioned before, and they would be more motivated if they could perceive the advantages and applicability of MDE, thus showing students the benefits and applications of MDE are crucial in increasing their motivation.
 
-\textit{Third}, they mentioned model management activities (abstract thinking, model validation, metamodelling, etc.) as the interesting challenges. To overcome the challenges, they did trial-and-error method to gain more experience in overcoming the challenges. These findings are in line with experiential learning which states learning is best achieved through experiencing \cite{kolb2014experiential}. The main concern of gameful design is to reduce the cost of performing such activities so that learners could focus on the core activities without distraction. It could be done by dividing the activities into smaller activity chunks and removing the extraneous, unrelated activities \cite{deterding2015lens}. 
-
-The extraneous, unrelated activities were identified by asking question 8 and 9, which aimed at determining the uninteresting challenges. Most of the complaints were on the tools which were tedious to use. They also argued that there is no need to learn the detailed technical concepts or terms that were only unique to certain products. To overcome the uninteresting challenges, the students preferred to seek information and solutions from on internet, lectures, and discussion groups. Thus, it is paramount to provide comprehensive documentation and support of the tools used in a learning activity \cite{liebel2015ready}. 
-
 \begin{table}[ht]
 \caption{Requirements derived from the preliminary survey (section \ref{Preliminary Survey}).}
 \label{table:preliminary-survey}
@@ -351,20 +228,16 @@ Category & Code & Requirements from Preliminary Survey \\
 \end{center}
 \end{table}
 
-\section{Design Requirements}
-\label{Design Requirements}
-Throughout the literature review, we have gathered requirements, which are the
-key points pointed out by MDE experts how we should teach MDE. Table
+
+\textit{Third}, they mentioned model management activities (abstract thinking, model validation, metamodelling, etc.) as the interesting challenges. To overcome the challenges, they did trial-and-error method to gain more experience in overcoming the challenges. These findings are in line with experiential learning which states learning is best achieved through experiencing \cite{kolb2014experiential}. The main concern of gameful design is to reduce the cost of performing such activities so that learners could focus on the core activities without distraction. It could be done by dividing the activities into smaller activity chunks and removing the extraneous, unrelated activities \cite{deterding2015lens}. 
+
+The extraneous, unrelated activities were identified by asking question 8 and 9, which aimed at determining the uninteresting challenges. Most of the complaints were on the tools which were tedious to use. They also argued that there is no need to learn the detailed technical concepts or terms that were only unique to certain products. To overcome the uninteresting challenges, the students preferred to seek information and solutions from on internet, lectures, and discussion groups. Thus, it is paramount to provide comprehensive documentation and support of the tools used in a learning activity \cite{liebel2015ready}. 
+
+\subsection{Requirements from Literature Review}
+Throughout the literature review, we have gathered requirements, which are the key points pointed out by MDE experts how we should teach MDE. Table
 \ref{table:requirements} is a list of requirements summarised from the
 literature review in section \ref{Software Modelling Teaching}. These
-requirements have two roles. First, they provide guidance to our design process
-and, second, they will also act as units of evaluation to confirm the SMLG meets
-the current best teaching practices.
- 
-We also derive other requirements from our preliminary survey in section \ref{Preliminary Survey}. 
-These requirements (Table \ref{table:preliminary-survey}) have the same role as other requirements 
-derived from the literature review, except that these requirements address the needs, motivations, 
-and challenges in designing the gameful aspect of SMLG. From our requirement identification, we found out that the items in the Contents category (Table \ref{table:requirements}) agrees with the item in the Needs category (Table \ref{table:preliminary-survey}). The finding suggests an agreement about the learning contents that should be delivered to students in learning MDE.
+requirements have two roles. First, they provide guidance to our design process and, second, they will also act as units of evaluation to confirm the SMLG meets the current best teaching practices.
 
 \begin{table}[ht]\caption{Requirements derived from the literature review (section \ref{Software Modelling Teaching}).}
 \label{table:requirements}
@@ -404,9 +277,19 @@ Category & Code & Requirements from Literature Review \\
 \end{tabular}
 \end{center}
 \end{table}
+ 
+We also derive other requirements from our preliminary survey in section \ref{Preliminary Survey}. 
+These requirements (Table \ref{table:preliminary-survey}) have the same role as other requirements 
+derived from the literature review, except that these requirements address the needs, motivations, 
+and challenges in designing the gameful aspect of SMLG. From our requirement identification, we found out that the items in the Contents category (Table \ref{table:requirements}) agrees with the item in the Needs category (Table \ref{table:preliminary-survey}). The finding suggests an agreement about the learning contents that should be delivered to students in learning MDE.
 
-\section{Elaborating Design and Learning Models}
-\label{Elaborating Design and Learning Models}
+
+
+\section{Design and Development}
+
+\subsection{Design}
+
+\subsubsection{Pedagogical Aspect Design}
 In section \ref{Pedagogy}, we proposed several existing learning models that we will apply in the design process of our SMLG. In this section, we will explain the relationships between the learning models, their contributions, and how they will be applied to the design of the SMLG are depicted in in Figure \ref{learning-models} and Figure \ref{learning-models2}.
 
 We decided to implement challenge as the fundamental game element that exists in the design of our game since it is one of the key features that exist in every game. The challenge is a crucial game element since it stimulates and provokes a player to engage with SMLG. We translate challenge into series of levels in our design and of course higher levels come with higher difficulty. To realise this, we borrow the learning activities---remember, understand, apply, analyse, evaluate, create---from Bloom's taxonomy, since every activity has different cognitive loads according to their order with 'create' has the highest cognitive load. We assume that activity with higher cognitive load is also harder to complete. Therefore, we can make different combinations between the activities that will gradually increase in difficulty (cognitive load) along the increase of the levels (Figure \ref{learning-models}). Bloom's taxonomy also act as an inventory of activities that provide us many options of activities that could give variability in our design. 
@@ -456,8 +339,7 @@ Category & Code & Requirements from Learning Models \\
 
 Learning activities in Bloom's taxonomy also correspond to the steps in Kolb's learning cycle \cite{murphy2007prior} and both have been applied together to design instructions in different fields \cite{terry1993kolb, howard1996felder, schatzberg2002applying}. Therefore, we argued that both could be implemented simultaneously; Bloom's taxonomy provides learning activities while Kolb's model addresses learning cycles in the design of our game. To simplify our work, we summarise the elaboration of design and learning models into a list of requirements (Table \ref{design-learning-models}) that will be used in the design and evaluation activities.
 
-\section{Gamification Design}
-\label{Gamification Design}
+\subsubsection{Game Aspect Design}
 In this research, we plan to assess whether gamification is beneficial for learners of graphical software modelling languages. We choose graphical modelling languages since they are the common languages used in modelling, whether in academia or industry, and extensively used in Model-Driven Engineering. Standard graphical modelling languages like UML\footnote{\url{http://www.uml.org/}} and BPMN\footnote{\url{http://www.bpmn.org/}}, often used in Model-Driven Engineering, are some of the use-cases.        
 
 Modelling can be expressed in different modelling languages. To minimise bias and ensure the generality of our SMLG, we plan to experiment and support several graphical modelling languages (e.g. UML, BPMN, state-charts). For each modelling language, we envision the development of dedicated SMLG that will be derived from the Gameful Design Framework \cite{deterding2015lens}. The SMLG will mimic a graphical modelling tool, and at each level, it will require the learner to graphically construct or adapt a model to meet a set of constraints and requirements.
@@ -468,33 +350,18 @@ The SMLG will incorporate interim goals and intrinsic rewards to motivate learne
 
 A real-world problem can be time-consuming and very complex to model. Thus, the inessential activities that are not significant to the core concepts that are being taught should be excluded. As a result, learners will be more focused on the main concepts. Thus, game elements like limited choices (i.e. only limited items can be dragged), microflows (i.e. put the right element to its right place), and bite-sized actions (e.g. drag and drop) will be implemented to facilitate learners in performing the core activities. Likewise, fuzziness will also be used to stimulate learners' creativity since most of the time there is no single correct model for the problem at hand. Attractive design will also be significant to motivate learners to interact with the SMLG. The SMLG should be able to give instant, noticeable, and actionable feedback to maintain learners' engagement and monitor their progress. Interesting and varied feedback should be designed to appeal to the learners' motives. We also plan to implement the SMLG using web technologies so that they are accessible to a wide audience.
 
-The details of the application of Deterding's Gameful Design to our design process are presented in Appendix \ref{Application of Deterding's Gameful Design Steps}. The process also produced storyboards that are the preliminary design of levels and graphical user interface of our game (Appendix \ref{Storyboards}).      
+The details of the application of Deterding's Gameful Design to our design process are presented in Appendix \ref{Application of Deterding's Gameful Design Steps}. The process also produced storyboards that are the preliminary design of levels and graphical user interface of our game (Appendix \ref{Storyboards}). 
 
-\section{Gamification Design and Generation Framework}
+\subsubsection{Model-Driven Aspect Design}
 We plan to build a framework that will facilitate the design and generation of SMLG. Rather than developing SMLG for each graphical modelling language manually, we will follow a model-based approach. In the spirit of Eugenia \cite{kolovos2015eugenia}, we will use metamodel annotations to define the graphical syntaxes of modelling languages and separate models to specify the game elements (constraints, objectives, levels, etc.) of the SMLG. These models will be then consumed by a model-to-text transformation to produce fully-functional language-specific SMLG. Thus, the framework supports software modelling tutors in the design and customisation of the SMLG at the high level of abstraction as well as to automatically build the SMLG. Up to now we have implemented a metamodel to specify game elements (flows, levels, challenges, and objectives) and a supporting Eclipse-based graphical editor (Fig. \ref{editor}), and a prototype SMLG (Fig. \ref{game-annotated}) for object diagrams. 
 
-\begin{figure}[ht]
-\centering
-\frame{\includegraphics[width=\textwidth]{editor}}
-\caption{Graphical editor for the gamification specification DSL \cite{Yohannis2016}.}
-\label{editor}
-\end{figure}
 
-\begin{figure}[!t]
-\centering
-\frame{\includegraphics[width=\textwidth]{game-annotated}}
-\caption{The display of the generated game \cite{Yohannis2016}.}
-\label{game-annotated}
-\end{figure}
+\subsection{Development}
 
+\section{Demonstration and Evaluation}
 
-Briefly describe and justify your  method(s) or research approach: You will also be expected to discuss these in the PR viva
-
-Summarise the work that you have done so far, making clear how you are applying your method(s) or research approach.
-
-Summarise any results you have obtained, and outline their significance: say how they contribute to your overall research questions or hypothesis.
-
-Outline clearly how your research and its results will be evaluated.
+\section{Communication}
+The progress of this research should be communicated to a larger audience. So far, only one publication have been made in a doctoral symposium setting. The detail of the publication can be found in the Publications section (Chapter \ref{Publications}).
 
 \chapter{Research Plan}
 \label{Research Plan}
@@ -778,80 +645,8 @@ Only one idea created so far. Learners are given a scaffolded series of problems
 Prototyping is still on going work.
 
 
-\chapter{Storyboard: Object Diagram}
+\chapter{Storyboard}
 \label{Storyboards}
-\begin{itemize}
-\item Objects
-	\begin{itemize}
-	\item Create single object (Level 01)
-	\item Create two objects (Level 02)
-	\item Create multiple objects (Level 03)
-	\end{itemize}
-\item Links (Relationships)
-	\begin{itemize}
-	\item Create single link (Level 04)
-	\item Create multiple links (Level 05)
-	\end{itemize}
-\item Slots (Attributes)
-	\begin{itemize}
-	\item Determine a slot and its value (Level 06)
-	\item Determine slots and their values (Level 07)
-	\end{itemize}
-\item Operations/Methods
-	\begin{itemize}
-	\item Determine operation (Level 08)
-	\item Determine multiple (Level 09) operations
-	\end{itemize}
-\item Class of Objects
-	\begin{itemize}
-	\item Determine the class of homogeneous objects (Level 10)
-	\item Determine different classes of heterogeneous objects (Level 11)
-	\end{itemize}
-\item Case Studies
-	\begin{itemize}
-	\item Reconstruct the model from the beginning (Level 12)
-	\item Apply the skills on different/similar problem (Level 13)
-	\end{itemize}
-\end{itemize}
-
-\begin{figure}[ht]
-    \centering
-    \subfloat[Level 01]{{ \frame{\includegraphics[width=7.16cm]{storyboard01}} }}
-    \hspace{0cm}
-    \subfloat[Level 02]{{ \frame{\includegraphics[width=7.16cm]{storyboard02}} }}
-    \\
-    \subfloat[Level 03]{{ \frame{\includegraphics[width=7.16cm]{storyboard03}} }}
-    \hspace{0cm}
-    \subfloat[Level 04]{{ \frame{\includegraphics[width=7.16cm]{storyboard04}} }}
-    \\
-    \subfloat[Level 05]{{ \frame{\includegraphics[width=7.16cm]{storyboard05}} }}
-    \hspace{0cm}
-    \subfloat[Level 06]{{ \frame{\includegraphics[width=7.16cm]{storyboard06}} }}
-    
-    
-    
-    \caption{Storyboard of Gamification of Object Diagram (part 1).}
-    \label{storyboard-1}
-\end{figure}
-
-
-\begin{figure}[ht]
-    \centering
-    \subfloat[Level 07]{{ \frame{\includegraphics[width=7.16cm]{storyboard07}} }}
-    \hspace{0cm}
-    \subfloat[Level 08]{{ \frame{\includegraphics[width=7.16cm]{storyboard08}} }}
-    \\
-    \subfloat[Level 09]{{ \frame{\includegraphics[width=7.16cm]{storyboard09}} }}
-    \hspace{0cm}
-    \subfloat[Level 10]{{ \frame{\includegraphics[width=7.16cm]{storyboard10}} }}
-    \\
-    \subfloat[Level 11]{{ \frame{\includegraphics[width=7.16cm]{storyboard11}} }}
-    \hspace{0cm}
-    \subfloat[Level 12]{{ \frame{\includegraphics[width=7.16cm]{storyboard12}} }}
-\caption{Storyboard of Gamification of Object Diagram (part 2).}
-    \label{storyboard-2}
-\end{figure}
-
 
 \end{appendices}
 

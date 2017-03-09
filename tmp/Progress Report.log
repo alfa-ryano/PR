@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=latex 2016.10.7)  8 MAR 2017 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=latex 2016.10.7)  8 MAR 2017 11:25
 entering extended mode
 **"./Progress Report.tex"
 ("Progress Report.tex"
@@ -208,7 +208,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip45
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 10.
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
@@ -278,20 +278,20 @@ Package csquotes Info: ... none found.
 ("Progress Report.aux")
 \openout1 = `"Progress Report.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -339,7 +339,7 @@ Package color Info: Driver file: dvips.def on input line 147.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-Package hyperref Info: Link coloring ON on input line 19.
+Package hyperref Info: Link coloring ON on input line 18.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -349,9 +349,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 ("Progress Report.out") ("Progress Report.out")
 \@outlinefile=\write3
@@ -383,14 +383,10 @@ Overfull \hbox (140.25418pt too wide) in paragraph at lines 46--46
 
  [2]
 Chapter 1.
-[3
-
-]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 124.
+(Font)              <7> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 124.
-
+(Font)              <5> on input line 118.
 
 ! LaTeX Error: File `gamification-trend' not found.
 
@@ -398,13 +394,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 ...egraphics[width=12cm]{gamification-trend}
+l.121 ...egraphics[width=12cm]{gamification-trend}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[3
+
+]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no Ø in font cmr12!
 Missing character: There is no ¬ in font cmr12!
@@ -412,7 +411,7 @@ Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no Ω in font cmr12!
-[4]
+ [4] [5]
 
 ! LaTeX Error: File `smlg' not found.
 
@@ -420,7 +419,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \includegraphics[width=\textwidth]{smlg}
+l.254 \includegraphics[width=\textwidth]{smlg}
                                               
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -428,10 +427,10 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `Field Survey and Review' on page 5 undefined on input
- line 153.
+LaTeX Warning: Reference `Field Survey and Review' on page 6 undefined on input
+ line 259.
 
-[5] [6] [7]
+[6] [7] [8]
 Chapter 2.
 
 ! LaTeX Error: File `dsrm' not found.
@@ -440,61 +439,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240 ... \includegraphics[width=\textwidth]{dsrm}
+l.346 ... \includegraphics[width=\textwidth]{dsrm}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[8
+[9
 
-] [9] [10]
+] [10] [11]
 
-Package hyperref Warning: No autoref name for `Appendix' on input line 291.
+Package hyperref Warning: No autoref name for `Appendix' on input line 397.
 
-[11] [12]
-Overfull \hbox (3.86331pt too wide) in paragraph at lines 337--337
+[12] [13]
+Overfull \hbox (3.86331pt too wide) in paragraph at lines 443--443
 [][]|\OT1/cmr/m/n/12 Motivations|  
  []
 
 
-Overfull \vbox (14.5pt too high) detected at line 341
+Overfull \vbox (14.5pt too high) detected at line 447
  []
 
 
-Overfull \vbox (29.0pt too high) detected at line 345
+Overfull \vbox (29.0pt too high) detected at line 451
  []
 
 
-LaTeX Warning: Reference `Software Modelling Teaching' on page 13 undefined on 
-input line 359.
+LaTeX Warning: Reference `Software Modelling Teaching' on page 14 undefined on 
+input line 465.
 
 
-LaTeX Warning: Reference `Software Modelling Teaching' on page 13 undefined on 
-input line 369.
+LaTeX Warning: Reference `Software Modelling Teaching' on page 14 undefined on 
+input line 475.
 
 
-LaTeX Warning: Reference `Software Modelling Teaching' on page 13 undefined on 
-input line 369.
+LaTeX Warning: Reference `Software Modelling Teaching' on page 14 undefined on 
+input line 475.
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 379--380
+Underfull \hbox (badness 1377) in paragraph at lines 485--486
 []|\OT1/cmr/m/n/12 Teach Mod-elling, meta-mod-elling, model val-i-da-tion,
  []
 
 
-Overfull \vbox (29.0pt too high) detected at line 384
+Overfull \vbox (29.0pt too high) detected at line 490
  []
 
 
-Overfull \vbox (14.5pt too high) detected at line 396
+Overfull \vbox (14.5pt too high) detected at line 502
  []
 
 
-LaTeX Warning: Reference `Pedagogy' on page 13 undefined on input line 410.
+LaTeX Warning: Reference `Pedagogy' on page 14 undefined on input line 516.
 
-[13]
+[14]
 
 ! LaTeX Error: File `learning-models' not found.
 
@@ -502,22 +501,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.416 ...aphics[width=\textwidth]{learning-models}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14]
-
-! LaTeX Error: File `learning-models2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.423 ...phics[width=\textwidth]{learning-models2}
+l.522 ...aphics[width=\textwidth]{learning-models}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -525,35 +509,50 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [15]
-Overfull \vbox (14.5pt too high) detected at line 446
+
+! LaTeX Error: File `learning-models2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.529 ...phics[width=\textwidth]{learning-models2}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16]
+Overfull \vbox (14.5pt too high) detected at line 552
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 447--447
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 553--553
 []|[]\OT1/cmr/m/n/12 RM01| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 448--448
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 554--554
 []|\OT1/cmr/m/n/12 RM02| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 449--449
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 555--555
 []|\OT1/cmr/m/n/12 RM03| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 450--450
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 556--556
 []|\OT1/cmr/m/n/12 RM04| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 451--451
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 557--557
 []|\OT1/cmr/m/n/12 RM05| 
  []
 
-[16] [17]
+[17] [18]
 
 ! LaTeX Error: File `editor' not found.
 
@@ -561,7 +560,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.478 ...ncludegraphics[width=\textwidth]{editor}}
+l.584 ...ncludegraphics[width=\textwidth]{editor}}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -575,14 +574,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 ...aphics[width=\textwidth]{game-annotated}}
+l.591 ...aphics[width=\textwidth]{game-annotated}}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[18] [19]
+[19] [20]
 Chapter 3.
 
 ! LaTeX Error: File `timetable' not found.
@@ -591,22 +590,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 ...ludegraphics[width=\textwidth]{timetable}
+l.614 ...ludegraphics[width=\textwidth]{timetable}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[20
+[21
 
 ]
 Chapter 4.
-("Progress Report.bbl" [21
+("Progress Report.bbl" [22
 
-] [22]) [23]
+] [23]) [24]
 Chapter 5.
-[24
+[25
 
 ]
 Appendix A.
@@ -614,13 +613,13 @@ Missing character: There is no √ in font cmbx12!
 Missing character: There is no Ç in font cmbx12!
 Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 539.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 645.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 539.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 645.
 Missing character: There is no √ in font cmr12!
 Missing character: There is no Ç in font cmr12!
 Missing character: There is no ¬ in font cmr12!
@@ -653,7 +652,7 @@ Missing character: There is no √ in font cmr12!
 Missing character: There is no Ç in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [25
+ [26
 
 ]
 Missing character: There is no √ in font cmr12!
@@ -696,7 +695,7 @@ Missing character: There is no √ in font cmr12!
 Missing character: There is no Ç in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [26]
+ [27]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no Ç in font cmr12!
 Missing character: There is no ¬ in font cmr12!
@@ -726,23 +725,23 @@ Missing character: There is no ç in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no æ in font cmr12!
 
-[27] [28]
+[28] [29]
 Appendix B.
 
-Overfull \hbox (9.71245pt too wide) in paragraph at lines 642--643
+Overfull \hbox (9.71245pt too wide) in paragraph at lines 748--749
 []\OT1/cmr/m/n/12 Computer Sci-ence Un-der-grad-u-ate Stu-dents with some knowl
 -edge of object-orientation,
  []
 
-[29
+[30
 
-] [30]
-Overfull \hbox (10.79161pt too wide) in paragraph at lines 683--684
+] [31]
+Overfull \hbox (10.79161pt too wide) in paragraph at lines 789--790
 [][]\OT1/cmr/m/n/12 Perform ab-strac-tion/identify rel-e-vant con-cepts (classe
 s, re-la-tion-ships, at-tributes)
  []
 
-[31]
+[32]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no Ø in font cmr12!
 Missing character: There is no ¬ in font cmr12!
@@ -750,13 +749,13 @@ Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no Ω in font cmr12!
- [32]
-Overfull \hbox (1.52226pt too wide) in paragraph at lines 761--762
+ [33]
+Overfull \hbox (1.52226pt too wide) in paragraph at lines 867--868
 []\OT1/cmr/m/n/12 Bite sized ac-tions, in-ter-est-ing choices, lim-ited choices
 , micro-flow, small pieces loosely
  []
 
-[33] [34]
+[34] [35]
 Appendix C.
 
 ! LaTeX Error: File `storyboard01' not found.
@@ -765,7 +764,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.819 ...egraphics[width=7.16cm]{storyboard01}} }}
+l.925 ...egraphics[width=7.16cm]{storyboard01}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -773,17 +772,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (4.94456pt too wide) in paragraph at lines 819--819
+Overfull \hbox (4.94456pt too wide) in paragraph at lines 925--925
 []\OT1/cmr/m/n/10 (a)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 819--819
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 925--925
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 819--819
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 925--925
 \OT1/cmr/m/n/10 01| 
  []
 
@@ -794,7 +793,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.821 ...egraphics[width=7.16cm]{storyboard02}} }}
+l.927 ...egraphics[width=7.16cm]{storyboard02}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -802,17 +801,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (5.50012pt too wide) in paragraph at lines 821--821
+Overfull \hbox (5.50012pt too wide) in paragraph at lines 927--927
 []\OT1/cmr/m/n/10 (b)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 821--821
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 927--927
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 821--821
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 927--927
 \OT1/cmr/m/n/10 02| 
  []
 
@@ -823,7 +822,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.823 ...egraphics[width=7.16cm]{storyboard03}} }}
+l.929 ...egraphics[width=7.16cm]{storyboard03}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -831,17 +830,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (4.38899pt too wide) in paragraph at lines 823--823
+Overfull \hbox (4.38899pt too wide) in paragraph at lines 929--929
 []\OT1/cmr/m/n/10 (c)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 823--823
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 929--929
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 823--823
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 929--929
 \OT1/cmr/m/n/10 03| 
  []
 
@@ -852,7 +851,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.825 ...egraphics[width=7.16cm]{storyboard04}} }}
+l.931 ...egraphics[width=7.16cm]{storyboard04}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -860,17 +859,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (5.50012pt too wide) in paragraph at lines 825--825
+Overfull \hbox (5.50012pt too wide) in paragraph at lines 931--931
 []\OT1/cmr/m/n/10 (d)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 825--825
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 931--931
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 825--825
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 931--931
 \OT1/cmr/m/n/10 04| 
  []
 
@@ -881,7 +880,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.827 ...egraphics[width=7.16cm]{storyboard05}} }}
+l.933 ...egraphics[width=7.16cm]{storyboard05}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -889,17 +888,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (4.38899pt too wide) in paragraph at lines 827--827
+Overfull \hbox (4.38899pt too wide) in paragraph at lines 933--933
 []\OT1/cmr/m/n/10 (e)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 827--827
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 933--933
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 827--827
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 933--933
 \OT1/cmr/m/n/10 05| 
  []
 
@@ -910,7 +909,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.829 ...egraphics[width=7.16cm]{storyboard06}} }}
+l.935 ...egraphics[width=7.16cm]{storyboard06}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -918,17 +917,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (3.77791pt too wide) in paragraph at lines 829--829
+Overfull \hbox (3.77791pt too wide) in paragraph at lines 935--935
 []\OT1/cmr/m/n/10 (f)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 829--829
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 935--935
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 829--829
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 935--935
 \OT1/cmr/m/n/10 06| 
  []
 
@@ -939,7 +938,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.840 ...egraphics[width=7.16cm]{storyboard07}} }}
+l.946 ...egraphics[width=7.16cm]{storyboard07}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -947,17 +946,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (4.94456pt too wide) in paragraph at lines 840--840
+Overfull \hbox (4.94456pt too wide) in paragraph at lines 946--946
 []\OT1/cmr/m/n/10 (a)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 840--840
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 946--946
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 840--840
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 946--946
 \OT1/cmr/m/n/10 07| 
  []
 
@@ -968,7 +967,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.842 ...egraphics[width=7.16cm]{storyboard08}} }}
+l.948 ...egraphics[width=7.16cm]{storyboard08}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -976,17 +975,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (5.50012pt too wide) in paragraph at lines 842--842
+Overfull \hbox (5.50012pt too wide) in paragraph at lines 948--948
 []\OT1/cmr/m/n/10 (b)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 842--842
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 948--948
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 842--842
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 948--948
 \OT1/cmr/m/n/10 08| 
  []
 
@@ -997,7 +996,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.844 ...egraphics[width=7.16cm]{storyboard09}} }}
+l.950 ...egraphics[width=7.16cm]{storyboard09}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -1005,17 +1004,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (4.38899pt too wide) in paragraph at lines 844--844
+Overfull \hbox (4.38899pt too wide) in paragraph at lines 950--950
 []\OT1/cmr/m/n/10 (c)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 844--844
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 950--950
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 844--844
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 950--950
 \OT1/cmr/m/n/10 09| 
  []
 
@@ -1026,7 +1025,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.846 ...egraphics[width=7.16cm]{storyboard10}} }}
+l.952 ...egraphics[width=7.16cm]{storyboard10}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -1034,17 +1033,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (5.50012pt too wide) in paragraph at lines 846--846
+Overfull \hbox (5.50012pt too wide) in paragraph at lines 952--952
 []\OT1/cmr/m/n/10 (d)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 846--846
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 952--952
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 846--846
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 952--952
 \OT1/cmr/m/n/10 10| 
  []
 
@@ -1055,7 +1054,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.848 ...egraphics[width=7.16cm]{storyboard11}} }}
+l.954 ...egraphics[width=7.16cm]{storyboard11}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -1063,17 +1062,17 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (4.38899pt too wide) in paragraph at lines 848--848
+Overfull \hbox (4.38899pt too wide) in paragraph at lines 954--954
 []\OT1/cmr/m/n/10 (e)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 848--848
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 954--954
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 848--848
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 954--954
 \OT1/cmr/m/n/10 11| 
  []
 
@@ -1084,7 +1083,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.850 ...egraphics[width=7.16cm]{storyboard12}} }}
+l.956 ...egraphics[width=7.16cm]{storyboard12}} }}
                                                   
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -1092,43 +1091,43 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (3.77791pt too wide) in paragraph at lines 850--850
+Overfull \hbox (3.77791pt too wide) in paragraph at lines 956--956
 []\OT1/cmr/m/n/10 (f)
  []
 
 
-Overfull \hbox (15.08345pt too wide) in paragraph at lines 850--850
+Overfull \hbox (15.08345pt too wide) in paragraph at lines 956--956
 |\OT1/cmr/m/n/10 Level
  []
 
 
-Overfull \hbox (2.16678pt too wide) in paragraph at lines 850--850
+Overfull \hbox (2.16678pt too wide) in paragraph at lines 956--956
 \OT1/cmr/m/n/10 12| 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 858.
-[35
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 964.
+[36
 
-] [36]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 858.
+] [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 964.
  ("Progress Report.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 858.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 858.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 964.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 964.
 Package rerunfilecheck Info: File `"Progress Report".out' has not changed.
 (rerunfilecheck)             Checksum: A2BB532DD6D21A407E5640BF8A8439CF;2667.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 858.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 964.
  ) 
 Here is how much of TeX's memory you used:
  7602 strings out of 493335
  117275 string characters out of 3136701
- 236276 words of memory out of 3000000
+ 236277 words of memory out of 3000000
  11009 multiletter control sequences out of 15000+200000
  9015 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,11n,50p,1164b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on "Progress Report.dvi" (38 pages, 190156 bytes).
+Output written on "Progress Report.dvi" (39 pages, 190752 bytes).
