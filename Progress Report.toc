@@ -9,24 +9,24 @@
 \contentsline {chapter}{\numberline {2}Progress Review}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Research Methods}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Identify Problems and Motivation}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Define Objective for a Solution}{10}{section.2.3}
+\contentsline {section}{\numberline {2.3}Define Requirements for a Software Modelling Learning Game Design Environment}{10}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Pedagogical Requirements}{11}{subsection.2.3.1}
 \contentsline {subsubsection}{Requirements from Pedagogy-Psychology Literature}{11}{section*.5}
-\contentsline {subsubsection}{Requirements from Software Modelling Learning}{12}{section*.6}
+\contentsline {subsubsection}{Requirements from Software Modelling Learning}{13}{section*.6}
 \contentsline {subsubsection}{Requirements from A Preliminary Survey}{13}{section*.7}
-\contentsline {subsection}{\numberline {2.3.2}Gaming Requirements}{14}{subsection.2.3.2}
-\contentsline {subsubsection}{Game Mechanics}{15}{section*.8}
-\contentsline {subsubsection}{Assessing Correctness}{15}{section*.9}
+\contentsline {subsection}{\numberline {2.3.2}Gaming Requirements}{13}{subsection.2.3.2}
+\contentsline {subsubsection}{Game Mechanics}{14}{section*.8}
+\contentsline {subsubsection}{Assessing Correctness}{16}{section*.9}
 \contentsline {subsubsection}{Rewards}{16}{section*.10}
 \contentsline {section}{\numberline {2.4}Design and Development}{16}{section.2.4}
-\contentsline {section}{\numberline {2.5}Demonstration and Evaluation}{18}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Demonstration}{18}{subsection.2.5.1}
-\contentsline {subsubsection}{Define Statechart Metamodel}{18}{section*.11}
-\contentsline {subsubsection}{Create Statechart Model}{19}{section*.12}
-\contentsline {subsubsection}{Create Learning Activity Model}{20}{section*.13}
+\contentsline {section}{\numberline {2.5}Demonstration and Evaluation}{19}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Demonstration}{19}{subsection.2.5.1}
+\contentsline {subsubsection}{Define Statechart Metamodel}{19}{section*.11}
+\contentsline {subsubsection}{Create Statechart Model}{21}{section*.12}
+\contentsline {subsubsection}{Create Learning Activity Model}{21}{section*.13}
 \contentsline {subsubsection}{Generate Game}{25}{section*.14}
-\contentsline {subsubsection}{Play Game}{25}{section*.15}
-\contentsline {subsection}{\numberline {2.5.2}Evaluation Plan}{25}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Communication}{26}{section.2.6}
-\contentsline {chapter}{\numberline {3}Research Plan}{27}{chapter.3}
+\contentsline {subsubsection}{Play Game}{26}{section*.15}
+\contentsline {subsection}{\numberline {2.5.2}Evaluation Plan}{26}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Communication}{27}{section.2.6}
+\contentsline {chapter}{\numberline {3}Research Plan}{28}{chapter.3}
 \contentsline {chapter}{\numberline {4}Publications}{29}{chapter.4}
