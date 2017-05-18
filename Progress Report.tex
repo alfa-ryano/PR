@@ -1,7 +1,7 @@
-\documentclass[10pt, a4paper]{report} \usepackage[titletoc]{appendix}
-\linespread{1.5}
-\usepackage{lineno}
-\linenumbers
+\documentclass[12pt, a4paper]{report} \usepackage[titletoc]{appendix}
+%\linespread{1.5}
+%\usepackage{lineno}
+%\linenumbers
 \usepackage{graphicx}
 	\graphicspath{{images/}} 
 \usepackage{geometry}
@@ -75,7 +75,7 @@ United Kingdom\\
 
 \begin{abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-Motivated by the success of gameful approaches in different fields, this research harnesses the engaging nature of games combined with the effectiveness of pedagogy and the automation of Model-Driven Engineering to propose an environment for model-driven gamified software modelling learning. The environment allows tutors to create software modelling learning activities, and to generate software modelling learning games for learners to play. This report presents the motivation behind the environment and summarises the progress that has been made so far. This research also plans to complete the development of the environment's prototype, evaluate it, and officially release it to community in the next two and half years.
+Motivated by the success of gameful approaches in different fields, this research harnesses the engaging nature of games combined with the effectiveness of pedagogy and the automation of Model-Driven Engineering to propose an environment for model-driven gamified software modelling learning. The environment allows tutors to create software modelling learning activities, and to generate software modelling learning games for learners to play. This report presents the motivation behind the environment and summarises the progress that has been made so far. This research also plans to complete the development of the environment's prototype, evaluate it, and officially release it to software modelling community in the next two and half years.
 \end{abstract}
 
 \tableofcontents
@@ -98,7 +98,7 @@ In this section, the background, questions, objectives, potential outputs, and s
 Software modelling is commonly perceived as a difficult subject since it
 requires a mastery of abstraction \cite{Borstler2012}. However, this subject has a significant role in software engineering education and
 practice. Successful application of software modelling requires skills in
-abstract modelling \cite{whittle2013industrial}i.e. being able to think abstractly about a system \cite{bezivin2009teaching}. Thus, teaching modelling also means teaching abstraction \cite{engels2005teaching}. Therefore, it is crucial to make students understand the value of abstraction \cite{bezivin2009teaching}. Weak software modelling skills will cause software engineering students to face further challenges with their degrees, as most software engineering related subjects involve of inherent abstraction problems \cite{Kramer2007}. Drawing from multidisciplinary research to define an abstraction for Artifical Intelligence, Saitta et al. stated that abstraction is often associated with these processes: information hiding, generalisation, approximation or reformulation, and separating relevant from irrelevant aspects \cite{Saitta2013}. Those processes are the common approaches applied in Computer Science, such as encapsulation and generalisation in object-oriented programming and algebraic simplification in symbolic computation. In the context of software engineering and computer science education, Kramer \cite{Kramer2007} and Hazzan \cite{hazzan2008reflections} argued that abstraction is central theme and key skill for computing.
+abstract modelling \cite{whittle2013industrial}i.e. being able to think abstractly about a system \cite{bezivin2009teaching}. Thus, teaching modelling also means teaching abstraction \cite{engels2005teaching}. Therefore, it is crucial to make students understand the value of abstraction \cite{bezivin2009teaching}. Weak software modelling skills will cause software engineering students to face further challenges with their degrees, as most software engineering related subjects involve of inherent abstraction problems \cite{Kramer2007}. Drawing from multidisciplinary research to define an abstraction for Artifical Intelligence, Saitta et al. stated that abstraction is often associated with these processes: information hiding, generalisation, approximation or reformulation, and separating relevant from irrelevant aspects \cite{Saitta2013}. Those processes are the common approaches applied in Computer Science, such as encapsulation and generalisation in object-oriented programming and algebraic simplification in symbolic computation. In the context of software engineering and computer science education, Kramer \cite{Kramer2007} and Hazzan \cite{hazzan2008reflections} argued that abstraction is a central theme and a key skill for computing.
 
 \begin{displayquote}
 ``I believe that abstraction is a key skill for computing. It is essential
@@ -123,10 +123,10 @@ Through a systematic review, Connolly et al. \cite{connolly2012systematic} studi
 
 In terms of learning, pedagogical aspects cannot be neglected. Several concepts from pedagogy will be applied to drive the design of the environment, particularly the best practices from instructional design, a mature field in designing learning activities so that learning processes can be more efficient and effective. Therefore, incorporating gameful approaches as well as the best practices of instructional design is potential to tackle the problems in learning software modelling. The environment is being designed to be suitable for higher-level undergraduate and postgraduate students with some experience of software engineering. 
 
-The application of Model-Driven Engineering (MDE) approaches broadens opportunity to improve the meta-processes of the gamified software modelling learning. Instead of developing the software modelling games manually, a model-based approach is applied. A environment is being developed, and will facilitates the design of learning activities for topics in software modelling. The learning activities is then transformed to generate software modelling learning games. 
+The application of Model-Driven Engineering (MDE) approaches broadens opportunity to improve the meta-processes of the gamified software modelling learning. Instead of developing the software modelling games manually, a model-based approach is applied. An environment is being developed, and will facilitate the design of learning activities for topics in software modelling. The learning activities are then transformed to generate software modelling learning games. 
 
 \section{Research Questions}
-This research proposes a hypothesis that ``the use of gamified software modelling learning can improve learners' engagement and performance, compared to alternative methods such as class-based teaching". To generate such games, an environment need to be developed. The environment has two main functionalities, it enables tutors to develop software modelling learning games, and facilitates students to learn software modelling through playing the games. The environment is expected can support various visual modelling notations and the creation of different games for learning software modelling. The word `improve' implies that learning with gameful approaches enhances learners' engagement and learning performance. The learners are more durable, frequent, and active compared to learners that only use didactic approach. Also, the former perform better in knowledge and skill acquisition and application compared to the latter. To answer the main research question, the following sub research questions need to be investigated:
+This research proposes a hypothesis that ``the use of gamified software modelling learning can improve learners' engagement and performance, compared to alternative methods such as class-based teaching". To generate such games, an environment needs to be developed. The environment has two main functionalities, it enables tutors to develop software modelling learning games, and facilitates students to learn software modelling through playing the games. The environment is expected can support various visual modelling notations and the creation of different games for learning software modelling. The word `improve' implies that learning with gameful approaches enhances learners' engagement and learning performance. The learners are more durable, frequent, and active compared to learners that only use didactic approach. Also, the former perform better in knowledge and skill acquisition and application compared to the latter. To answer the main research question, the following sub research questions need to be investigated:
 \begin{enumerate} 
 \item Which game styles and elements, and pedagogical approaches are suitable for software modelling learning games?
 \item Which of the aspects of developing a software modelling game can be automated through the use of model-driven engineering?
@@ -144,7 +144,7 @@ The solution proposed by this research is to produce an environment that can sup
 \section{Research Outputs}
 By the end of this research, two possible research outputs have identified will have been produced:
 \begin{enumerate}
-\item A environment for tutors to design and produce software modelling learning games and for learners to learn software modelling in gamified ways. 
+\item An environment for tutors to design and produce software modelling learning games and for learners to learn software modelling in gamified ways. 
 \item Results of controlled experiments---comparing learning engagement and performance of learners with and without software modelling games.
 \end{enumerate}
 
@@ -171,13 +171,13 @@ Problem identification and motivation of this investigation have been widely pre
 
 Software modelling plays a significant role in software engineering. However, its abstract nature makes it challenging to be mastered since most of its concepts are mostly presented in symbolical notations. To master software modelling, learners need to possess modelling skills, such as grasping ideas behind models presented in visual modelling notations, presenting back the ideas into visual modelling notations, viewing the ideas from different perspectives using different visual modelling notations, choosing the right levels of abstraction of modelling and moving between. Acquiring these skills can be difficult enough to demotivate learners from learning software modelling.
 
-Apart from the problems mentioned above, the use of games or game elements rises as potential solutions to tackle motivational problems. Also, pedagogy has been a mature field to deliver effective learning processes. Therefore, incorporating gameful approaches as well as the pedagogy's best practices can bring significant benefits to tackle the problems in learning software modelling. A environment that unifies the gameful and pedagogical approaches is needed.  Thus, this research is motivated to produce an environment that can support tutors to design gamified learning activities and learners to learn software modelling gamefully.
+Apart from the problems mentioned above, the use of games or game elements rises as potential solutions to tackle motivational problems. Also, pedagogy has been a mature field to deliver effective learning processes. Therefore, incorporating gameful approaches as well as the pedagogy's best practices can bring significant benefits to tackle the problems in learning software modelling. An environment that unifies the gameful and pedagogical approaches is needed.  Thus, this research is motivated to produce an environment that can support tutors to design gamified learning activities and learners to learn software modelling gamefully.
 
 
 \section{Define Requirements for a Software Modelling Learning Game Design Environment}
 The objectives for a solution proposed by this research are to develop an environment that can support tutors to develop software modelling learning games as well as learners to learn software modelling through playing the games, and to perform controlled experiments to measure the effectiveness of the environment in improving learning engagement and performance compared to traditional method (didactic learning without the support of gameful approaches).
 
-The design of a solution should be based on existing foundations (models, theories, frameworks, etc.) \cite{von2004design}. Thus, some requirements have to be met to ensure the environment meets its desired functionality. Some requirements have been identified---pedagogical requirements and gaming requirements---and gathered gathered from literature review. These requirements provide guidance to the design process.
+The design of a solution should be based on existing foundations (models, theories, frameworks, etc.) \cite{von2004design}. Thus, some requirements have to be met to ensure the environment meets its desired functionality. Some requirements have been identified---pedagogical requirements and gaming requirements---and gathered from literature review. These requirements provide guidance to the design process.
 
 \subsection{Pedagogical Requirements}
 \label{Pedagogical Requirements}
@@ -185,17 +185,17 @@ Pedagogical requirements are classified into two categories, requirements from p
 
 \subsubsection{Requirements from Pedagogy-Psychology Literature}
 \label{Requirements from Pedagogy-Psychology Literature}
-Bloom's taxonomy is a model that categorise learning activities into six levels based on their cognitive load incrementally; the six levels are remember, understand, apply, analyse, evaluate, and create \cite{krathwohl2002revision}. Performing activities in \emph{create} category is more challenging than activities in the lower categories since they demand high cognitive loads. All of these activities, whether they are arranged gradually or a combination of them, can give different variation and difficulty of a challenge to learners when they are performed in a learning context. 
+Bloom's taxonomy is a model that categorises learning activities into six levels based on their cognitive load incrementally; the six levels are remember, understand, apply, analyse, evaluate, and create \cite{krathwohl2002revision}. Performing activities in the \emph{create} category is more challenging than activities in the lower categories since they demand high cognitive loads. All of these activities, whether they are arranged gradually or a combination of them, can give different variation and difficulty of a challenge to learners when they are performed in a learning context. 
 
-While learners are progressing in the environment, they are developing their competence. Thus, difficulty has to be kept balanced with their competence. Otherwise, they will get bored. It is the situation where the Flow concept \cite{csikszentmihalyi2014toward} can be applied. There are three have been identified so far related to a pedagogical approach to control the degree of difficulty: a combination of Bloom's activities, the introduction of new concepts, and application in different domains. The order of the levels of each of the three ways has to be arranged properly following the Flow theory. Concepts that are easier are given earlier than the harder ones, and the difficulty is gradually increased as learners progress. Likewise, Application in the domains that are more familiar with learners should be given first and gradually shifted to the domains that are most unfamiliar. Combining these three dimensions--types of activities, concepts, and domains--could provide us with a variety of levels with different degrees of difficulties. 
+While learners are progressing in the environment, they are developing their competence. Thus, difficulty has to be kept balanced with their competence. Otherwise, they will get bored. It is the situation where the Flow concept \cite{csikszentmihalyi2014toward} can be applied. There are three challenges have been identified so far related to a pedagogical approach to control the degree of difficulty: a combination of Bloom's activities, the introduction of new concepts, and application in different domains. The order of the levels of each of the three ways has to be arranged properly following the Flow theory. Concepts that are easier should be introduced earlier than the harder ones, and the difficulty should be gradually increased as learners progress. Likewise, application in the domains that are more familiar to learners should be introduced first and gradually shifted to the domains that are most unfamiliar. Combining these three dimensions--types of activities, concepts, and domains--could provide us with a variety of levels with different degrees of difficulties. 
 
-Motivation is an important aspect in the success of learning, and Keller's ARCS motivational model is also selected to address this aspect \cite{keller2010motivational}. The model provides us in each its components---attention, relevance, confidence, satisfaction---a set of predefined techniques to maintain learners' motivation. In the course of a level of the environment, there are a start, an end, and learning activities in between. The ARCS' techniques can be applied to maintain learners' motivation along the course of completing a level. As an example, the animation could be used to gain learners' attention, explaining the application of the concept being taught in the currently playing level to give relevance, showing their progress in completing a level to maintain their confidence and giving them a reward after finishing a level for reward. 
+Motivation is an important aspect in the success of learning, and Keller's ARCS motivational model is also selected to address this aspect \cite{keller2010motivational}. The model provides for each of its components---attention, relevance, confidence, satisfaction---a set of predefined techniques to maintain learners' motivation. In the course of a level of the environment, there are several activities. The ARCS' techniques can be applied to maintain learners' motivation along the course of completing a level. As an example, animations could be used to gain learners' attention, explaining the application of the concept being taught in the current level to give relevance, showing their progress in completing a level to maintain their confidence and to give them a reward after finishing a level for reward. 
  
-The concept of Scaffolding \cite{vygotsky1978mind, wood1976role} could also be applied to support learners coping challenges. Throughout finishing a level, scaffolding could be provided in several ways: reducing extensive modelling activities into smaller activity constituents, removing irrelevant activities, providing an almost complete model so they can work on the most relevant activities rather than build the model from scratch, provide help and documentation, and give some clues of the solutions when they get stuck. This support will be reduced as players progress to maintain the balance between their increasing competence and difficulty. Scaffolding is not generated automatically by the environment. Instead, tutors are given freedom to incorporate scaffolding into their learning activity design. 
+The concept of Scaffolding \cite{vygotsky1978mind, wood1976role} could also be applied to support learners. Throughout completing a level, scaffolding could be provided in several ways: reducing complex modelling activities into smaller activity constituents, removing irrelevant activities, providing an almost complete model so they can work on the most relevant activities rather than build the model from scratch, provide help and documentation, and give some clues of the solutions when they get stuck. This support will be reduced as players progress to maintain the balance between their increasing competence and difficulty. Scaffolding is not generated automatically by the environment. Instead, tutors are given freedom to incorporate scaffolding into their learning activity design. 
 
-Kolb's experiential learning model \cite{kolb2014experiential} is also applied to the environment. The model agrees knowledge is constructed through experience and based its model on constructivism \cite{kolb2014experiential}. Kolb's model was selected since playing levels in the environment is similar to the learning cycle Kolb proposed. The cycle consists of 4 steps: concrete experience, reflective observation , abstract conceptualisation, and active experimentation. 
+Kolb's experiential learning model \cite{kolb2014experiential} is also applied to the environment. The model proposes that knowledge is constructed through experience and is based on constructivism \cite{kolb2014experiential}. Kolb's model was selected since playing levels in the environment is similar to the learning cycle Kolb proposed. The cycle consists of 4 steps: concrete experience, reflective observation, abstract conceptualisation, and active experimentation. 
 
-So far, different concepts in pedagogy and psychology related to learning have been identified---from Bloom's taxonomy to Kolb's experiential learning---and of course, there many other related existing concepts that have not been investigated. All of these concepts are believed can provide principles that are useful to deliver an effective learning. Thus, instead of rigorously design the environment only to certain concepts, it's better to allow tutors to apply these different concepts of learning into their learning activity design. Thus, this research aims to make the environment generic enough to accommodate different learning approaches. However, as a start, some concepts still have to be selected to guide and validate the design of the environment. Thus, the concepts presented in this subsection are also chosen as the requirements for the design of the environment (Table \ref{design-learning-models}).
+So far, different concepts in pedagogy and psychology related to learning have been identified---from Bloom's taxonomy to Kolb's experiential learning. All of these concepts can provide principles that are useful to deliver effective learning. Thus, instead of rigorously design the environment only to certain concepts, it's better to allow tutors to apply these different concepts of learning into their learning activity design. Thus, this research aims to make the environment generic enough to accommodate different learning approaches. However, as a start, some concepts still have to be selected to guide and validate the design of the environment. Thus, the concepts presented in this subsection are also chosen as the requirements for the design of the environment (Table \ref{design-learning-models}).
 
 \begin{table}[t!]
 \caption{Requirements derived from learning theories and models.}
@@ -220,7 +220,7 @@ Category & Code & Requirements from Pedagogy-Psychology Literature\\
 \label{Requirements from Software Modelling Learning}
 Requirements from software modelling learning are the best practices pointed out by experts in the field about what and how software modelling should be taught and learnt. These requirements are used as key points to consider in the design phase of the software modelling learning games environment. The list of the identified requirements can be seen in Table \ref{literature-review-1}. 
 
-Since contents, practices, and tools design in the list are vary and recommended from different experts, it is more generic if the environment can allow tutors to express these best practices into their learning activities based on their own preferences and needs rather than fixedly embed all the requirements into the environment. The word 'generic' means the learning activities can be reused and modified based on their contextual use.
+Since the requirements in the list are vary and recommended from different experts, it is more generic if the environment can allow tutors to express these best practices into their learning activities based on their own preferences and needs rather than fixedly embed all the requirements into the environment.
 
 \begin{table}[t!]\caption{Requirements derived from the literature review.}
 \label{literature-review-1}
@@ -230,77 +230,36 @@ Since contents, practices, and tools design in the list are vary and recommended
 Category & Code & Environment's Requirements from Literature Review \\
 \hline
 \multirow{1}{2cm}{Contents} 
-& RL01 & Teach MDE Definition \cite{borstler2012teaching}. \\ 
+& RL01 & Teach software modelling definition \cite{borstler2012teaching}. \\ 
 & RL02 & Teach semantics, syntaxes, notations \cite{borstler2012teaching}. \\ 
-& RL03 & Teach Modelling, metamodelling, model validation, model transformation \cite{bezivin2009teaching, ober2007teaching}. \\
-& RL04 & Teach the applications of MDE \cite{bezivin2009teaching, liebel2015ready}. \\
+& RL03 & Teach modelling and metamodelling \cite{bezivin2009teaching, ober2007teaching}. \\
+& RL04 & Teach the application of software modelling \cite{bezivin2009teaching, liebel2015ready}. \\
 & RL05 & Teach the engineering aspect of modelling \cite{paige2014bad}.\\
 & RL06 & Teach modelling in various domains and contexts \cite{borstler2012teaching, paige2014bad}.\\
 \hline
 \multirow{1}{2cm}{Practices} 
-& RL07 & Teach that modelling is abstract thinking \cite{bezivin2009teaching}.\\
-& RL08 & Learners should at least are proficient in object-orientation \cite{bezivin2009teaching, paige2014bad, Akayama2013}.\\
-& RL09 & Measure student's model's quality \cite{Akayama2013}.\\
-& RL10 & Facilitate teaching problem solving first, detail specifications and tools get in the way \cite{paige2014bad}. \\
-& RL11 & Provide support to solutions, not direct answers \cite{paige2014bad}. \\ 
-& RL12 & Facilitate teaching broadly, throughout, not deeply \cite{borstler2012teaching, paige2014bad, Akayama2013}.\\
-& RL13 & Facilitate teaching with different modelling languages \cite{bezivin2009teaching, paige2014bad}.\\ 
-& RL14 & It is engaging (fun, challenging) \cite{paige2014bad}.\\ 
-& RL15 & Teach from ground, real-world, familiar objects, up to abstraction \cite{engels2005teaching}.\\ 
-
+& RL07 & Measure student's model's quality \cite{Akayama2013}.\\
+& RL08 & Facilitate teaching problem solving first, detail specifications and tools get in the way \cite{paige2014bad}. \\
+& RL09 & Provide support to solutions, not direct answers \cite{paige2014bad}. \\ 
+& RL10 & Facilitate teaching with different modelling languages \cite{bezivin2009teaching, paige2014bad}.\\ 
+& RL11 & It is engaging (fun, challenging) \cite{paige2014bad}.\\ 
+& RL12 & Teach from ground, real-world, familiar objects, up to abstraction \cite{engels2005teaching}.\\ 
 \hline
 \multirow{1}{2cm}{Tool Design}
-& RL16 & Have adequate support and documentation \cite{liebel2015ready}. \\
-& RL17 & Designed to build knowledge incrementally \cite{lethbridge2014teaching}.\\
-& RL18 & Provide flexibility to explore learning \cite{lethbridge2014teaching}. \\
-& RL19 & Give positive reinforcement \cite{lethbridge2014teaching}. \\
-& RL20 & Convince the value of the topic being learned \cite{lethbridge2014teaching}. \\ 
-& RL21 & Have high usability \cite{lethbridge2014teaching}.\\ 
+& RL13 & Have adequate support and documentation \cite{liebel2015ready}. \\
+& RL14 & Designed to build knowledge incrementally \cite{lethbridge2014teaching}.\\
+& RL15 & Provide flexibility to explore learning \cite{lethbridge2014teaching}. \\
+& RL16 & Give positive reinforcement \cite{lethbridge2014teaching}. \\
+& RL17 & Convince the learner about the value of the topic being learned \cite{lethbridge2014teaching}. \\ 
+& RL18 & Have high usability \cite{lethbridge2014teaching}.\\ 
 \hline
 \end{tabular}
 \end{center}
 \end{table}
-
-\subsubsection{Requirements from A Preliminary Survey}
-\label{Requirements from A Preliminary Survey}
-A preliminary survey to identify learners' needs, motivations and challenges have been conducted according to the Research phase of the Deterding's Gameful Design Framework\cite{deterding2015lens}. The preliminary survey aims to identify the requirements in designing the gameful aspect of the environment. It is not intended to measure significance, but it is a qualitative investigation to reveal needs, motivations, and challenges in learning software modelling from learners' perspective. The preliminary survey is also in line with the Design Science Research Methodology \cite{peffers2007design}, in order to identify the problem and motivation so that this research can define the objective of a solution accurately in the second activity.
-
-Online questionnaires were distributed to students of Model Driven Engineering (MODE) 2015/2016 module. The students were in their Software Engineering master programme at the University of York. From 21 students, only 4 completed the questionnaires. Since the number of respondents are small for generalisation, the same survey is planned to applied to next term MODE students, and the result is only used to confirm and backup requirements from software modelling learning' best practices (Section ) and requirements from pedagogy-psychology literature.
-
-From the requirement identification, it is found that the requirements derived from the preliminary survey (Table \ref{preliminary-survey}) support and confirm the requirements from pedagogy-psychology literature (Table \ref{design-learning-models}) and from software modelling learning literature (Table \ref{literature-review-1}). 
-
-\begin{table}[t!]
-\caption{Requirements derived from the preliminary survey.}
-\label{preliminary-survey}
-\begin{center}
-\begin{tabular}{ p{2cm}p{1cm}p{10cm} } 
-\hline
-Category & Code & Requirements from Preliminary Survey \\
-\hline
-\multirow{1}{2cm}{Needs} 
-& RS01 & Teach them knowledge and skills that are applicable in industry: model management (abstract thinking, modelling, metamodelling, model transformation, validation, and application) and tool literacy. \\ 
-\hline
-\multirow{1}{2cm}{Motivations}
-& RS02 & Promote gaining advance knowledge and skills in MDE. \\ 
-& RS03 & Promote the benefits and applications of MDE. \\ 
-\hline
-\multirow{1}{2cm}{Interesting Challenges}
-& RS04 & Challenge with model management activities (abstract thinking, model validation, metamodelling, etc.). \\ 
-& RS05 & Scaffold learning process to support learners gaining their experience (for an example, dividing the activities into smaller activity chunks). \\ 
-\hline
-\multirow{1}{2cm}{Un-interesting Challenges}
-& RS06 & Increase the usability of the tool being used. \\ 
-& RS07 & No need to learn the detailed technical terms specific to certain products. \\ 
-& RS08 & Provide documentation and support for the tools being used. \\ 
-\hline
-\end{tabular}
-\end{center}
-\end{table}
-
 
 \subsection{Gaming Requirements}
 \label{Gaming Requirements}
-The main challenge addressed in this work is transforming software modelling learning into gameful activities. Given that there are different types of modelling languages (e.g. graphical, textual, projectional, tree-based) and types of games (continuous vs. level-based, real-time vs. turn-based, single-player vs. multi-player), at this stage it is worth noting that our study is limited to level-based single-player games for languages with a 2D graphical syntax. For this style of game, the following concerns and challenges have been identified. These concerns and challenges are summarised as requirements and listed in Table \ref{gaming-requirements}.
+The main challenge addressed in this work is transforming software modelling learning into gameful activities. Given that there are different types of modelling languages (e.g. graphical, textual, projectional, tree-based) and types of games (continuous vs. level-based, real-time vs. turn-based, single-player vs. multiplayer), at this stage it is worth noting that our study is limited to level-based single-player games for languages with a 2D graphical syntax. For this style of game, the following concerns and challenges have been identified. These concerns and challenges are summarised as requirements and listed in Table \ref{gaming-requirements}.
 
 \subsubsection{Game Mechanics} 
 \label{Game Mechanics} 
@@ -327,9 +286,9 @@ Rewards are a major element of learning games, allowing users to develop a sense
 Category & Code & Gaming Requirements\\
 \hline
 \multirow{1}{2cm}{Game Mechanics}
-& GM01 & construction gameplay \cite{arnab2015mapping}\\
-& GM02 & multiple-choice gameplay (selecting the best diagram)\\
-& GM03 & multiple-choice gameplay (select the best interpretation)\\
+& GM01 & support construction gameplay \cite{arnab2015mapping}\\
+& GM02 & support multiple-choice gameplay (select the best diagram)\\
+& GM03 & support multiple-choice gameplay (select the best interpretation)\\
 \hline
 \multirow{1}{2cm}{Assessing Correctness}
 & GC01 & complete match validation\\
@@ -355,7 +314,7 @@ A web-based prototype of the environment has been developed to facilitate the de
 \end{figure}
 
 
-An annotated metamodel is then transformed using Epsilon EGL \cite{kolovos2010epsilon} and EMF \cite{steinberg2008emf} to generate its Java implementation code for further model management operations on the server, such as model validation and transformation (Figure \ref{artefacts}). The transformation also produces Javascript that implements a language-specific web-based graphical editor built on top of the MxGraph environment. After the generation, tutors can create language-specific models using this editor and validate them using language-specific EVL \cite{kolovos2006eclipse} constraints (Figure \ref{artefacts}). The models (the EMF models in Figure \ref{artefacts}) can be used as base models in construction gameplay and are required as candidate solutions, and as diagrams to be selected and interpreted by learners in multiple-choice gameplay. 
+An annotated metamodel is then transformed using Epsilon's model-to-text transformation language (EGL) \cite{kolovos2010epsilon} and EMF \cite{steinberg2008emf} to generate its Java implementation code for further model management operations on the server, such as model validation and transformation (Figure \ref{artefacts}). The transformation also produces Javascript that implements a language-specific web-based graphical editor built on top of the MxGraph environment. After the generation, tutors can create language-specific models using this editor and validate them using language-specific EVL \cite{kolovos2006eclipse} constraints (Figure \ref{artefacts}). The models (the EMF models in Figure \ref{artefacts}) can be used as base models in construction gameplay and are required as candidate solutions, and as diagrams to be selected and interpreted by learners in multiple-choice gameplay. 
 
 A modelling language has also been defined to design and link up different types of levels (see Figure \ref{laml} for its metamodel). We name the models constructed by this modelling language, \emph{learning activity models} (for example, see Figure \ref{eoml}). Currently, elements that are supported by the learning activity modelling language are activity, objective, model, start, end, transition, and link. The activity element represents an activity in a learning process (in the transformation that follows each activity is transformed to a level). In an activity, tutors need to define \emph{lesson} (description of the topic being taught), \emph{instruction} (direction to complete the activity), the name of the target metamodel, and a set of \emph{objectives}(elements to describe targets/conditions that learners have to meet in order to complete an activity). 
 
@@ -427,7 +386,7 @@ The statechart diagram is intended to only support six basic elements: state, no
 
 
 
-\subsubsection{Create Statechart Model}
+\subsubsection{Create Statechart Models}
 Using the generated graphical editor (Figure \ref{ide}), designers can now create statechart models. The editor has a palette that contains statechart elements which they can drag and drop into a drawing area where they can arrange the elements to construct statechart models. The editor also has a property panel to modify the attributes and appearance of the models. Models that have been created can be saved and loaded again for further operations. The editor also can be used to create models as input/base models for learning activities. 
 
 \begin{figure}[t!]
@@ -565,11 +524,10 @@ Two forms of assessment have been planned to evaluate the environment. The first
 The second assessment is to measure the development effort needed to develop a complete game for a non-trivial modelling language, and the savings realised using the model-driven approach. The assessment will be tested on developers that have considerable background in developing games, which also implies a challenge since it is hard to get developers that have such qualification and are willingly participate as subjects. The measures will be on time used to complete the game and ratio between lines of code written and lines of code generated. Subjective feedback from the developers will also be useful to describe the quality of the environment. 
 
 \section{Communication}
-The progress of this research should be communicated to a larger audience. So far, only two papers have been made for publication. The first paper has been published in a doctoral symposium setting, and the other one is already submitted to a conference and waiting for review. The detail of the publication can be found in the Publications section (Chapter \ref{Publications}).
+The progress of this research should be communicated to a larger audience. So far, two papers have been prepared for publication. The first paper \cite{Yohannis2016} has been published (A. Yohannis, “Gamiﬁcation of software modelling learning,” in \textit{the ACM/IEEE 19th International Conference on Model Driven Engineering Languages and Systems (MODELS 2016) Doctoral Symposium}. CEUR, 2016) in a doctoral symposium, and the other one is already submitted to a conference and under review. The details of the two publications can be found in the Publications section (Chapter \ref{Publications}).
 
 \chapter{Research Plan}
 \label{Research Plan}
-This year, 2017, time will be spending much on developing a prototype, with an experiment and survey will be conducted in between October and December in the UK. The experiment and survey are to execute the evaluation plan in Subsection \ref{Evaluation Plan}. The same experiment and survey will also be conducted in 2018 but are planned to be executed in Indonesia. The environment is also planned to be released formally to software modelling community to gain recognition and feedback in the beginning of 2019. The research timetable is displayed in Table \ref{Research Timetable}. 
 
 \begin {table}[th]
 \caption {Research Timetable} 
@@ -577,16 +535,33 @@ This year, 2017, time will be spending much on developing a prototype, with an e
 \label{Research Timetable}
 \end{table}
 
-The next work is completing the prototype development, such as adding multiple choice gameplay, semantic equivalence validation, and reward mechanisms. Two facilities will also be added: a fine-grained logging facility that will allow game designers to replay solutions and understand how users interact with the game and a facility that monitors the progress of learners. 
 
+For the next two and half years, this research plans to execute these following actions. The research timetable is displayed in Table \ref{Research Timetable}.
+\begin{itemize}
+\item \textbf{May-Aug 2017}: Further develop and test the prototype. In particular, this research plans to extend the diversity of modelling languages that the prototype can accommodate by extending the list of supported annotations, as well as add multiple choice gameplay, semantic equivalence validation, and reward mechanisms. Also, two facilities will be added: a fine-grained logging facility that will allow the environment to record learner-game interaction for further analysis and a facility that monitors the progress of learners. 
+\item \textbf{May-Aug 2017}: Prepare the required Thesis Outline.
+\item \textbf{Oct 2017-Dec 2017}: This research will prepare and conduct experiment in York to execute the evaluation plan in Subsection \ref{Evaluation Plan} and then update the prototype based on observations from the experiment.
+\item \textbf{Jan-Mar 2018}: Start writing thesis report based on Thesis Outline and update the prototype. 
+\item \textbf{Apr 2018}: Conduct Thesis Audit 1 and prepare the experiment that will be executed in Indonesia.
+\item \textbf{May 2018}: Update thesis report and update prototype based on Thesis Audit 1, and prepare the experiment that will be executed in Indonesia. 
+\item \textbf{Jun 2018}: This research will conduct an experiment in Indonesia to execute the evaluation plan in Subsection \ref{Evaluation Plan}.
+\item \textbf{Jul-Aug 2018}: Update thesis report and prototype based on the experiment in Indonesia. 
+\item \textbf{Sep 2018}: Conduct Thesis Audit 2. 
+\item \textbf{Oct-Dec 2018}: Update the thesis report and prototype based on Thesis Audit 2. Design a formal release since the environment is also planned to be released formally to software modelling community to gain recognition and feedback.
+\item \textbf{Jan-March 2019}: Release the environment to software modelling community and update thesis report. 
+\item \textbf{Apr 2019}: Prepare and conduct 40-Minute Seminar. 
+\item \textbf{May-June 2019}: Update thesis report based on 40-Minute Seminar and for Thesis Submission.
+\item \textbf{Jul 2019}: Perform Thesis Submission.
+\item \textbf{Aug-Dec 2019}: Reserved time.
+\end{itemize}
 
 \chapter{Publications}
 \label{Publications}
-Papers have been published in the following conferences or journals: 
+Papers have been published or are under review in the following conferences or journals: 
 \begin{enumerate}
  \item A. Yohannis, ``Gamification of software modelling learning,'' in
  \textit{the ACM/IEEE 19th International Conference on Model Driven Engineering Languages and Systems (MODELS 2016) Doctoral Symposium}. CEUR, 2016. \cite{Yohannis2016}.
- \item A. Yohannis, D. Kolovos, and F. Polack, ``Towards Model-Driven Gamified Software Modelling Learning,'' in \textit{the ACM/IEEE 20th International Conference on Model Driven Engineering Languages and Systems (MODELS 2017)}. (submitted, in review).
+ \item A. Yohannis, D. Kolovos, and F. Polack, ``Towards Model-Driven Gamified Software Modelling Learning,'' in \textit{the ACM/IEEE 20th International Conference on Model Driven Engineering Languages and Systems (MODELS 2017)}. (under review).
 \end{enumerate}
 
 \bibliographystyle{IEEEtran}
@@ -599,9 +574,3 @@ Papers have been published in the following conferences or journals:
 %\end{appendices}
 
 \end{document}
-
-
-
-
-
-
